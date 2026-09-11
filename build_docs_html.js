@@ -332,6 +332,7 @@ chapters.forEach((ch, idx) => {
   <header class="doc-sticky-header">
     <div class="doc-nav-left">
       <a href="../index.html" class="doc-btn-back">← Finnish Hunting Portal</a>
+      <a href="https://powerpig99.github.io/not-a-toe/" class="doc-btn-back" target="_blank" rel="noopener" style="margin-right:0.5rem;" title="Author Blog (Not a ToE)">🌌 Blog</a>
       <select class="doc-select" onchange="if(this.value) window.location.href=this.value" aria-label="Jump to Chapter">
         ${chapterOptionsHtml}
       </select>

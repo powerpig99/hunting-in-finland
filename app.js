@@ -130,6 +130,7 @@ function renderStaticUI() {
   setHtmlWithBilingual('nav-calc-link', ui1.navCalc, ui2 ? ui2.navCalc : null);
   setHtmlWithBilingual('nav-checklists-link', ui1.navChecklists, ui2 ? ui2.navChecklists : null);
   setHtmlWithBilingual('nav-docs-link', ui1.navDocs, ui2 ? ui2.navDocs : null);
+  setHtmlWithBilingual('nav-blog-link', ui1.navBlog, ui2 ? ui2.navBlog : null);
 
   // Hero Section
   setHtmlWithBilingual('hero-tag-text', ui1.heroTag, ui2 ? ui2.heroTag : null);
@@ -190,6 +191,7 @@ function renderStaticUI() {
   setHtmlWithBilingual('footer-desc', ui1.footerDesc, ui2 ? ui2.footerDesc : null);
   setHtmlWithBilingual('footer-auth-title', ui1.footerAuthTitle, ui2 ? ui2.footerAuthTitle : null);
   setHtmlWithBilingual('footer-assoc-title', ui1.footerAssocTitle, ui2 ? ui2.footerAssocTitle : null);
+  setHtmlWithBilingual('footer-ecosystem-title', ui1.footerEcosystemTitle, ui2 ? ui2.footerEcosystemTitle : null);
   setHtmlWithBilingual('footer-note', ui1.footerNote, ui2 ? ui2.footerNote : null);
 }
 

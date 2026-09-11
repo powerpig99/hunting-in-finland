@@ -109,3 +109,13 @@ python3 -m http.server 8000
 - **[Metsästäjäliitto (Finnish Hunters' Association)](https://metsastajaliitto.fi/)** — Hunter advocacy, training, mentoring, and magazine.
 - **[Poliisi.fi (Firearm Permits)](https://poliisi.fi/hae-aselupaa)** — Official electronic portal for firearm acquisition and possession permits.
 - **[Riistapolku.fi (Suomen riistakeskus)](https://www.riistapolku.fi/)** — Official e-learning environment, self-study modules, and species recognition.
+
+---
+
+## 🧭 Philosophy & Ecosystem
+
+This project is a continuous living record and practical application of the first-person philosophy explored in **[Not a ToE](https://powerpig99.github.io/not-a-toe/)** — embodying the shift from passive modeling to direct, active agency and wildlife stewardship in everyday life.
+
+- 🌌 **[Not a ToE (Author Blog)](https://powerpig99.github.io/not-a-toe/)**
+- 🍄 **[Helsinki Wild Mushroom Guide](https://powerpig99.github.io/helsinki-mushroom-guide/)**
+- 🎹 **[The Adult Piano Companion](https://powerpig99.github.io/adult-piano-guide/)**
