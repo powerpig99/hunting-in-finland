@@ -491,6 +491,74 @@ body {
   line-height: 1.45;
 }
 
+/* Clean Documentation Handbook Interactive Cards */
+.doc-card-interactive {
+  border: 1.5px solid var(--color-slate-200);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--color-white);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.doc-card-interactive:hover,
+.doc-card-interactive:focus-visible {
+  border-color: var(--color-pine-600);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  outline: none;
+}
+
+.doc-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.doc-card-top .opt-icon {
+  font-size: 1.85rem;
+  line-height: 1;
+}
+
+.doc-card-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-pine-700);
+  background-color: var(--color-pine-50);
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  border: 1px solid var(--color-pine-100);
+}
+
+.doc-card-interactive h4 {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--color-slate-900);
+  margin-bottom: 0.55rem;
+  line-height: 1.35;
+  transition: color var(--transition-fast);
+}
+
+.doc-card-interactive:hover h4 {
+  color: var(--color-pine-700);
+}
+
+.doc-card-interactive p {
+  font-size: 0.88rem;
+  color: var(--color-slate-600);
+  line-height: 1.55;
+  margin: 0;
+  flex: 1;
+}
+
 .wizard-results {
   background-color: var(--color-pine-50);
   border: 1px solid var(--color-pine-100);

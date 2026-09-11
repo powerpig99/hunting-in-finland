@@ -187,7 +187,6 @@ function renderStaticUI() {
   setHtmlWithBilingual('sec-tag-docs', ui1.docsTag, ui2 ? ui2.docsTag : null);
   setHtmlWithBilingual('sec-title-docs', ui1.docsTitle, ui2 ? ui2.docsTitle : null);
   setHtmlWithBilingual('sec-sub-docs', ui1.docsSubtitle, ui2 ? ui2.docsSubtitle : null);
-  setHtmlWithBilingual('sec-btn-overview', ui1.docsOverviewBtn, ui2 ? ui2.docsOverviewBtn : null);
 
   setHtmlWithBilingual('footer-desc', ui1.footerDesc, ui2 ? ui2.footerDesc : null);
   setHtmlWithBilingual('footer-auth-title', ui1.footerAuthTitle, ui2 ? ui2.footerAuthTitle : null);
@@ -950,6 +949,16 @@ function renderReader() {
   if (closeText) {
     closeText.textContent = l1 === 'zh' ? '返回主页' : (l1 === 'fi' ? 'Takaisin' : 'Back to Guide');
   }
+
+  // Update Standalone Page link in reader modal header
+  const standaloneLink = document.getElementById('reader-standalone-link');
+  const standaloneText = document.getElementById('reader-standalone-text');
+  if (standaloneLink) {
+    standaloneLink.href = `docs/${chapter.num}_${chapter.slug}.html`;
+  }
+  if (standaloneText) {
+    standaloneText.textContent = l1 === 'zh' ? '独立网页' : (l1 === 'fi' ? 'Erillinen sivu' : 'Standalone Page');
+  }
 }
 
 function renderDocsHub() {
@@ -962,31 +971,34 @@ function renderDocsHub() {
 
   CHAPTERS_DATA.forEach(d => {
     const card = document.createElement('div');
-    card.className = 'option-box';
-    card.style.cursor = 'pointer';
-    const htmlPageUrl = `docs/${d.num}_${d.slug}.html`;
-    const mdFileUrl = `docs/${d.num}_${d.slug}.md`;
+    card.className = 'doc-card-interactive';
+    card.setAttribute('role', 'button');
+    card.setAttribute('tabindex', '0');
+    const chapterName = getI18nText(d.title, l1);
+    card.setAttribute('aria-label', `${l1 === 'zh' ? '阅读章节' : 'Read chapter'}: ${chapterName}`);
+
+    const badgeText = l1 === 'zh' ? `第 ${d.num} 章` : (l1 === 'fi' ? `Luku ${d.num}` : `Chapter ${d.num}`);
 
     card.innerHTML = `
-      <div class="opt-icon">${d.icon}</div>
+      <div class="doc-card-top">
+        <span class="opt-icon">${d.icon}</span>
+        <span class="doc-card-badge">${badgeText}</span>
+      </div>
       <h4>${renderBilingualText(d.title, l1, l2)}</h4>
       <p>${renderBilingualText(d.subtitle, l1, l2, true)}</p>
-      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
-        <span class="btn btn-sm btn-primary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem; border-radius: 9999px;">
-          ${l1 === 'zh' ? '📖 弹窗阅读' : (l1 === 'fi' ? '📖 Lue oppaassa' : '📖 Modal Reader')}
-        </span>
-        <a href="${htmlPageUrl}" class="btn btn-sm btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem; border-radius: 9999px; text-decoration: none;" onclick="event.stopPropagation()">
-          ${l1 === 'zh' ? '🌐 独立网页' : (l1 === 'fi' ? '🌐 HTML-sivu' : '🌐 HTML Page')}
-        </a>
-        <a href="overview.html" class="doc-raw-link" style="font-size: 0.8rem; margin-left: auto; color: var(--color-slate-500);" onclick="event.stopPropagation()" title="Full Overview Webpage">
-          📑 ${l1 === 'zh' ? '全书总览' : (l1 === 'fi' ? 'Yleiskuva' : 'Overview')}
-        </a>
-      </div>
     `;
-    card.addEventListener('click', (e) => {
-      e.preventDefault();
+
+    card.addEventListener('click', () => {
       openReader(d.id);
     });
+
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openReader(d.id);
+      }
+    });
+
     container.appendChild(card);
   });
 }
