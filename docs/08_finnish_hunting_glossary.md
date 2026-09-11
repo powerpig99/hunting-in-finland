@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](08_finnish_hunting_glossary.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 08. Finnish-English Hunting Glossary & Field Vocabulary
 
 Whether communicating over a VHF hunting radio in a moose drive line, ordering ammunition at a sporting store, or speaking with your local game association coordinator, knowing core Finnish terminology is essential.

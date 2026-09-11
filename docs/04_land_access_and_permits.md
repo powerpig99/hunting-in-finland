@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](04_land_access_and_permits.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 04. Where to Hunt: Land Access & Permits (*Metsästysoikeus*)
 
 One of the most common misconceptions among newcomers to Finland concerns **Everyman's Right (*Jokamiehenoikeus*)**. While anyone may freely walk, ski, camp, and pick wild berries and mushrooms across any forest in the country, **hunting is strictly excluded**. 

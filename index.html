@@ -421,13 +421,36 @@
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p id="footer-note">Created for outdoor learning. Always verify regional quotas and seasonal dates on official Finnish portals before heading into the forest.</p>
+  <!-- In-App Document / Guide Reader Modal -->
+  <div id="reader-modal" class="reader-modal" role="dialog" aria-modal="true" aria-label="Handbook Reader">
+    <div class="reader-container">
+      <div class="reader-header">
+        <div class="reader-header-left">
+          <button id="reader-close-btn" class="reader-close-btn" title="Close Reader">← <span id="reader-close-text">Back to Guide</span></button>
+          <select id="reader-chapter-select" class="reader-select" aria-label="Select Chapter">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+        <div style="font-size: 0.88rem; color: rgba(255,255,255,0.85);">
+          📖 <span id="reader-status-text">Finnish Hunting Handbook</span>
+        </div>
+      </div>
+      <div class="reader-body">
+        <div id="reader-chapter-tag" class="article-chapter-tag">Chapter 01</div>
+        <h1 id="reader-article-title">Loading chapter...</h1>
+        <div id="reader-article-subtitle" class="reader-subtitle-box"></div>
+        <div id="reader-article-content"></div>
+      </div>
+      <div class="reader-footer">
+        <button id="reader-prev-btn" class="btn btn-secondary">← Previous Chapter</button>
+        <button id="reader-close-bottom-btn" class="btn btn-primary">Close Handbook ✕</button>
+        <button id="reader-next-btn" class="btn btn-secondary">Next Chapter →</button>
       </div>
     </div>
-  </footer>
+  </div>
 
   <script src="i18n.js"></script>
+  <script src="chapters.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

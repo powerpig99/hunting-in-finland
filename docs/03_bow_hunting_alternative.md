@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](03_bow_hunting_alternative.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 03. Bow Hunting (*Jousimetsästys*) — The Modern Entry Route
 
 For beginners living in Finnish cities or suburban areas, **bow hunting** (*jousimetsästys*) is one of the most accessible, rewarding, and rapidly growing pathways into Finnish game harvesting. 

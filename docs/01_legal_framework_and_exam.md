@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](01_legal_framework_and_exam.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 01. Legal Framework & The Hunter's Examination (*Metsästäjätutkinto*)
 
 In Finland, hunting is treated as a highly respected, heavily regulated civic responsibility. To be a hunter is to act as an active steward of wildlife populations, forest health, and public safety.

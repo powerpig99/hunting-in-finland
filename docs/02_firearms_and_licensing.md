@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](02_firearms_and_licensing.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 02. Firearms, Licensing & Supervised Shooting (*Ampuma-aselaki*)
 
 In Finland, firearms ownership is strictly controlled by the National Police Board and local police departments (*Poliisi*). Firearms are never granted for generic self-defense; every permit requires a recognized, legitimate purpose, of which **hunting is the most common and respected**.

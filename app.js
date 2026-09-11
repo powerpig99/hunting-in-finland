@@ -1,8 +1,10 @@
 /**
  * Hunting in Finland — Trilingual Interactive Engine
  * Supports English (en), Chinese (zh), and Finnish (fi)
- * Features Dual-Language live comparison mode!
+ * Features Dual-Language live comparison mode and In-App Guide Reader!
  */
+
+let currentChapterId = 'ch1';
 
 document.addEventListener('DOMContentLoaded', () => {
   initLanguage();
@@ -11,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSpeciesExplorer();
   initCalculator();
   initChecklists();
+  initReader();
   renderAll();
 });
 
@@ -107,6 +110,7 @@ function renderAll() {
   renderCalculatorUI();
   renderChecklistsUI();
   renderDocsHub();
+  renderReader();
 }
 
 function renderStaticUI() {
@@ -288,6 +292,7 @@ function renderWizardPlan() {
 
   // Step 1: Orientation & Culture
   steps.push({
+    chapterId: "ch6",
     title: {
       en: "Step 1: Low-Risk Orientation & Range Visit (Weeks 1–3)",
       zh: "第1步：零门槛实弹体验与猎会观摩（第1–3周）",
@@ -297,12 +302,12 @@ function renderWizardPlan() {
       en: "Visit a sporting clay range for supervised shooting (Valvottu ammunta, ~25-40 €). No license needed! Join a local hunting club's autumn moose/deer drive as an unarmed beater (Ajomies) to experience the culture and meet mentors.",
       zh: "前往飞碟靶场进行受监督射击体验（Valvottu ammunta，约25-40欧），无需任何持枪证！受邀作为驱兽员（Ajomies）参加当地猎会的秋季围猎，直观感受猎犬与团队协作。",
       fi: "Käy ampumaradalla kokeilemassa haulikkoammuntaa valvotusti (n. 25–40 €). Liity paikallisen seuran jahtiin aseettomana ajomiehenä oppiaksesi käytännön jahtia ja tutustuaksesi eräväkeen."
-    },
-    doc: "docs/06_zero_experience_roadmap.md"
+    }
   });
 
   // Step 2: Resident Exam & Oma Riista
   steps.push({
+    chapterId: "ch1",
     title: {
       en: "Step 2: Hunter's Exam (In English) & Hunting Card (Months 1–2)",
       zh: "第2步：报考猎人资格（可申请英文考卷）并激活猎人卡（第1–2个月）",
@@ -312,13 +317,13 @@ function renderWizardPlan() {
       en: "Attend a weekend preparatory course (~40 €) and take the 60-question Hunter's Exam (Metsästäjätutkinto, 20 €) at your local RHY. As a permanent resident with banking ID (Suomi.fi), register on Oma riista and pay the annual 43 € Game Management Fee to activate your hunting card and insurance.",
       zh: "参加当地猎会预备班（约40欧），并在当地RHY考点参加60题猎人考试（20欧，可现场要求英文考卷）。通过后使用芬兰银行电子ID登录Oma riista，缴纳43欧管理费激活猎人卡及附带的人身意外险。",
       fi: "Osallistu RHY:n valmentavalle kurssille ja suorita 60 kysymyksen metsästäjätutkinto (20 €). Kirjaudu suomalaisilla pankkitunnuksilla Oma riistaan ja maksa 43 euron riistanhoitomaksu, joka aktivoi metsästyskortin ja vakuutuksen."
-    },
-    doc: "docs/01_legal_framework_and_exam.md"
+    }
   });
 
   // Step 3: Weapon Choice
   if (wizardState.weapon === 'bow') {
     steps.push({
+      chapterId: "ch3",
       title: {
         en: "Step 3: Compound Bow & 3D Archery Practice (Months 2–3)",
         zh: "第3步：选购复合猎弓与3D射箭实操（第2–3个月）",
@@ -328,11 +333,11 @@ function renderWizardPlan() {
         en: "Purchase a compound hunting bow with draw weight ≥ 180 N (40.5 lbs) and legal cutting broadheads (≥ 22 mm). No police permit or gun safe needed! If hunting deer, take the 18-meter Bow Shooting Test (Jousiampumakoe, 20 €).",
         zh: "购入拉力≥40.5磅的复合猎弓和法定割裂式刀头箭（≥22mm）。完全免除警察局办证和厚重枪柜！若计划猎白尾鹿或狍子，参加18米弓猎测试（20欧）。",
         fi: "Hanki metsästysjousi (vetovoima väh. 180 N) ja leikkaavat kärjet (väh. 22 mm). Ei aselupia tai asekaappia! Peuran ja kauriin pyyntiin suorita 18 metrin jousikoe (20 €)."
-      },
-      doc: "docs/03_bow_hunting_alternative.md"
+      }
     });
   } else if (wizardState.weapon === 'gun') {
     steps.push({
+      chapterId: "ch2",
       title: {
         en: "Step 3: Police Firearm Permit (Hankkimislupa) & Safe (Months 2–4)",
         zh: "第3步：向警察局申请居民购枪许可证（Hankkimislupa）（第2–4个月）",
@@ -342,12 +347,12 @@ function renderWizardPlan() {
         en: "As a permanent resident, apply electronically on Poliisi.fi with your Hunting Card. Interview at the local police station. Buy a 12-gauge shotgun (birds/hare) or .308 rifle (deer/moose), and present for physical serial number inspection within 30 days.",
         zh: "凭借永居身份、猎人卡及居留证明直接在Poliisi.fi网申购枪证（约106欧）。前往所属警察局面试。获批后购买12号双管霰弹枪或.308步枪，30天内携未上膛枪支前往警局验枪录入系统。",
         fi: "Hae poliisin sähköisessä asioinnissa hankkimislupaa metsästyskortilla. Käy haastattelussa. Osta 12-kaliiperinen haulikko tai .308-kivääri ja esitä se poliisille 30 päivän kuluessa."
-      },
-      doc: "docs/02_firearms_and_licensing.md"
+      }
     });
 
     if (wizardState.target === 'big') {
       steps.push({
+        chapterId: "ch5",
         title: {
           en: "Step 3b: Big Game Rifle Shooting Test (Ampumakoe)",
           zh: "第3b步：通过75米大猎物步枪射击测试（Hirvikoe）",
@@ -357,13 +362,13 @@ function renderWizardPlan() {
           en: "Pass the mandatory 4-shot moose/deer rifle test at 75 meters (all 4 shots in 23 cm vital circle within 90 seconds, 20 € fee, valid 3 years).",
           zh: "参加步枪大动物考核：在75米靶距下，90秒内4枪全部射入直径23厘米的靶心环内（费用20欧，成绩全芬兰通用，有效期3年）。",
           fi: "Ammu 4 laukausta 90 sekunnissa 75 metrin matkalta 23 cm osuma-alueeseen (20 €, voimassa 3 vuotta)."
-        },
-        doc: "docs/05_game_species_and_seasons.md"
+        }
       });
     }
   } else {
     // Mentor / Guided
     steps.push({
+      chapterId: "ch2",
       title: {
         en: "Step 3: Supervised Hunting or Parallel Permit (Months 2–3)",
         zh: "第3步：导师现场陪同实猎或申请副持枪证（第2–3个月）",
@@ -373,14 +378,14 @@ function renderWizardPlan() {
         en: "Hunt under the immediate supervision (arm's reach) of an experienced licensed friend or guide using their firearm. Alternatively, apply for a Parallel Permit (Rinnakkaislupa, ~40 €) to share their weapon legally on solo trips.",
         zh: "在资深猎人导师一臂之内借用导师枪械开火（Valvottu ammunta）。或申请导师枪支名下的副持枪证（Rinnakkaislupa，约40欧），即可独立携带该枪出猎。",
         fi: "Metsästä kokeneen luvanhaltijan välittömässä valvonnassa tai hae poliisilta rinnakkaislupaa ystävän aseeseen (n. 40 €)."
-      },
-      doc: "docs/02_firearms_and_licensing.md"
+      }
     });
   }
 
   // Step 4: Land Access
   if (wizardState.target === 'small' || wizardState.target === 'invasive') {
     steps.push({
+      chapterId: "ch4",
       title: {
         en: "Step 4: Public State Forest Permits via Eräluvat.fi",
         zh: "第4步：在Eräluvat.fi购买国家公有森林小猎物日票",
@@ -390,11 +395,11 @@ function renderWizardPlan() {
         en: "Purchase day permits (10 €–25 €/day) for 9+ million hectares of state-owned forests in Kainuu, Lapland, or coastal islands. Small predator permits for raccoon dog/mink are only ~10 € for the full season.",
         zh: "在Eräluvat.fi在线购买国家林业局900万公顷公有森林的小猎物日票（10-25欧/天）。外来入侵害兽清除票（貉与水貂）全季仅需约10欧元！",
         fi: "Osta kanalintu- tai vesilintulupia valtion maille (10–25 €/vrk). Pienpetoluvat supikoiralle ja minkille maksavat vain n. 10 € koko kaudelta."
-      },
-      doc: "docs/04_land_access_and_permits.md"
+      }
     });
   } else {
     steps.push({
+      chapterId: "ch4",
       title: {
         en: "Step 4: Join a Local Hunting Club (Metsästysseura)",
         zh: "第4步：加入当地猎会或预订专业猎塔机位",
@@ -403,9 +408,8 @@ function renderWizardPlan() {
       desc: {
         en: "Big game hunting in Finland is organized through hunting clubs. As a resident, apply to your local club or participate as a guest on deer stand hunts (Kyttäysjahti).",
         zh: "芬兰大动物狩猎依托地方猎会开展。作为本地居民，可申请加入居住地附近的猎会，或作为客座猎人预约带保暖加热的猎塔机位守猎白尾鹿。",
-        fi: "Hirvieläin队伍 toimii seurojen kautta. Pysyvänä asukkaana voit hakea kotiseutusi seuran jäsenyyttä tai osallistua peurapasseihin vierasluvalla."
-      },
-      doc: "docs/04_land_access_and_permits.md"
+        fi: "Hirvieläinjahti toimii seurojen kautta. Pysyvänä asukkaana voit hakea kotiseutusi seuran jäsenyyttä tai osallistua peurapasseihin vierasluvalla."
+      }
     });
   }
 
@@ -427,10 +431,10 @@ function renderWizardPlan() {
         <div class="step-details">
           <h4>${renderBilingualText(s.title, l1, l2)}</h4>
           <p>${renderBilingualText(s.desc, l1, l2, true)}</p>
-          <div style="margin-top: 0.5rem;">
-            <a href="${s.doc}" target="_blank" style="color: var(--color-orange-500); font-size: 0.82rem; font-weight: 600; text-decoration: underline;">
-              ${l1 === 'zh' ? '查阅深度中文专章 →' : (l1 === 'fi' ? 'Lue syventävä luku →' : 'Read in-depth chapter →')}
-            </a>
+          <div style="margin-top: 0.65rem;">
+            <button type="button" class="btn btn-secondary doc-open-btn" data-chapter="${s.chapterId}" style="padding: 0.35rem 0.85rem; font-size: 0.82rem; cursor: pointer;">
+              📖 ${l1 === 'zh' ? '直接在网页中阅读深度专章' : (l1 === 'fi' ? 'Avaa opasluku sovelluksessa' : 'Read Chapter in Web App')} →
+            </button>
           </div>
         </div>
       </li>
@@ -439,6 +443,13 @@ function renderWizardPlan() {
 
   html += `</ul></div>`;
   container.innerHTML = html;
+
+  // Bind doc-open buttons inside wizard plan
+  container.querySelectorAll('.doc-open-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      openReader(btn.dataset.chapter);
+    });
+  });
 }
 
 /* ==========================================================================
@@ -474,7 +485,6 @@ function renderQuizQuestion() {
   const l1 = I18N.currentLang;
   const l2 = I18N.secondaryLang;
   const ui1 = I18N.ui[l1];
-  const ui2 = l2 ? I18N.ui[l2] : null;
 
   const q = I18N.quizQuestions[quizCurrentIndex];
   if (!q) return;
@@ -758,87 +768,211 @@ function renderChecklistsUI() {
 }
 
 /* ==========================================================================
-   6. Docs Hub
+   6. Docs Hub & In-App Guide Reader
    ========================================================================== */
+
+function initReader() {
+  const modal = document.getElementById('reader-modal');
+  const closeBtn = document.getElementById('reader-close-btn');
+  const closeBottomBtn = document.getElementById('reader-close-bottom-btn');
+  const chapterSelect = document.getElementById('reader-chapter-select');
+  const prevBtn = document.getElementById('reader-prev-btn');
+  const nextBtn = document.getElementById('reader-next-btn');
+
+  closeBtn?.addEventListener('click', closeReader);
+  closeBottomBtn?.addEventListener('click', closeReader);
+
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeReader();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal?.classList.contains('active')) {
+      closeReader();
+    }
+  });
+
+  chapterSelect?.addEventListener('change', (e) => {
+    openReader(e.target.value);
+  });
+
+  prevBtn?.addEventListener('click', () => {
+    navigateChapter(-1);
+  });
+
+  nextBtn?.addEventListener('click', () => {
+    navigateChapter(1);
+  });
+
+  // Global click interceptor: intercept any click to docs/*.md or docs/*.html and open in reader!
+  document.addEventListener('click', (e) => {
+    const targetLink = e.target.closest('a');
+    if (!targetLink) return;
+    const href = targetLink.getAttribute('href') || '';
+    if (href.includes('docs/') && (href.endsWith('.md') || href.endsWith('.html'))) {
+      e.preventDefault();
+      const match = href.match(/0(\d)/);
+      if (match && match[1]) {
+        openReader(`ch${match[1]}`);
+      } else {
+        openReader('ch1');
+      }
+    }
+  });
+}
+
+function openReader(chapterId) {
+  if (!chapterId) chapterId = 'ch1';
+  // If passed a path or digit
+  if (chapterId.includes('01')) chapterId = 'ch1';
+  else if (chapterId.includes('02')) chapterId = 'ch2';
+  else if (chapterId.includes('03')) chapterId = 'ch3';
+  else if (chapterId.includes('04')) chapterId = 'ch4';
+  else if (chapterId.includes('05')) chapterId = 'ch5';
+  else if (chapterId.includes('06')) chapterId = 'ch6';
+  else if (chapterId.includes('07')) chapterId = 'ch7';
+  else if (chapterId.includes('08')) chapterId = 'ch8';
+
+  currentChapterId = chapterId;
+  renderReader();
+
+  const modal = document.getElementById('reader-modal');
+  if (modal) {
+    modal.classList.add('active');
+    modal.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeReader() {
+  const modal = document.getElementById('reader-modal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+function navigateChapter(direction) {
+  const currentIndex = CHAPTERS_DATA.findIndex(c => c.id === currentChapterId);
+  if (currentIndex === -1) return;
+  const newIndex = currentIndex + direction;
+  if (newIndex >= 0 && newIndex < CHAPTERS_DATA.length) {
+    openReader(CHAPTERS_DATA[newIndex].id);
+  }
+}
+
+function renderReader() {
+  const l1 = I18N.currentLang;
+  const l2 = I18N.secondaryLang;
+
+  const chapter = CHAPTERS_DATA.find(c => c.id === currentChapterId) || CHAPTERS_DATA[0];
+  if (!chapter) return;
+
+  // Chapter Select Dropdown
+  const selectEl = document.getElementById('reader-chapter-select');
+  if (selectEl) {
+    selectEl.innerHTML = '';
+    CHAPTERS_DATA.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c.id;
+      const t1 = getI18nText(c.title, l1);
+      opt.textContent = `${c.num}. ${t1}`;
+      if (c.id === currentChapterId) opt.selected = true;
+      selectEl.appendChild(opt);
+    });
+  }
+
+  // Tag & Titles
+  const chapterTagEl = document.getElementById('reader-chapter-tag');
+  if (chapterTagEl) {
+    chapterTagEl.textContent = l1 === 'zh' ? `第 ${chapter.num} 章` : (l1 === 'fi' ? `Luku ${chapter.num}` : `Chapter ${chapter.num}`);
+  }
+
+  const titleEl = document.getElementById('reader-article-title');
+  if (titleEl) {
+    titleEl.innerHTML = renderBilingualText(chapter.title, l1, l2, true);
+  }
+
+  const subEl = document.getElementById('reader-article-subtitle');
+  if (subEl) {
+    subEl.innerHTML = renderBilingualText(chapter.subtitle, l1, l2, true);
+  }
+
+  // Content Area
+  const contentEl = document.getElementById('reader-article-content');
+  if (contentEl) {
+    let mainContent = getI18nText(chapter.content, l1);
+    if (l2 && l2 !== l1) {
+      const secondaryContent = getI18nText(chapter.content, l2);
+      if (secondaryContent && secondaryContent !== mainContent) {
+        mainContent = `
+          <div class="reader-primary-content">
+            ${mainContent}
+          </div>
+          <div class="reader-secondary-content" style="margin-top: 3rem; padding-top: 2rem; border-top: 3px dashed var(--color-slate-300); background: #fdfdfd;">
+            <div style="font-size: 0.82rem; font-weight: 700; text-transform: uppercase; color: var(--color-pine-700); margin-bottom: 1rem; letter-spacing: 1px;">
+              🌐 ${l2 === 'zh' ? '对照参考文本（中文）' : (l2 === 'fi' ? 'Vertailukäännös (Suomi)' : 'Comparative Reference (English)')}
+            </div>
+            ${secondaryContent}
+          </div>
+        `;
+      }
+    }
+    contentEl.innerHTML = mainContent;
+  }
+
+  // Prev / Next button states
+  const currentIndex = CHAPTERS_DATA.findIndex(c => c.id === currentChapterId);
+  const prevBtn = document.getElementById('reader-prev-btn');
+  const nextBtn = document.getElementById('reader-next-btn');
+
+  if (prevBtn) {
+    prevBtn.disabled = currentIndex === 0;
+    prevBtn.style.opacity = currentIndex === 0 ? '0.4' : '1';
+    prevBtn.innerHTML = `← ${l1 === 'zh' ? '上一章' : (l1 === 'fi' ? 'Edellinen luku' : 'Previous Chapter')}`;
+  }
+
+  if (nextBtn) {
+    nextBtn.disabled = currentIndex === CHAPTERS_DATA.length - 1;
+    nextBtn.style.opacity = currentIndex === CHAPTERS_DATA.length - 1 ? '0.4' : '1';
+    nextBtn.innerHTML = `${l1 === 'zh' ? '下一章' : (l1 === 'fi' ? 'Seuraava luku' : 'Next Chapter')} →`;
+  }
+
+  const closeBottomBtn = document.getElementById('reader-close-bottom-btn');
+  if (closeBottomBtn) {
+    closeBottomBtn.textContent = l1 === 'zh' ? '返回主页 ✕' : (l1 === 'fi' ? 'Sulje käsikirja ✕' : 'Close Handbook ✕');
+  }
+
+  const closeText = document.getElementById('reader-close-text');
+  if (closeText) {
+    closeText.textContent = l1 === 'zh' ? '返回主页' : (l1 === 'fi' ? 'Takaisin' : 'Back to Guide');
+  }
+}
 
 function renderDocsHub() {
   const l1 = I18N.currentLang;
   const l2 = I18N.secondaryLang;
 
-  const docsData = [
-    {
-      id: "doc-01",
-      icon: "🏛️",
-      href: "docs/01_legal_framework_and_exam.md",
-      title: { en: "01. Legal Framework & Exam", zh: "01. 法律框架与猎人资格考试", fi: "01. Lainsäädäntö ja tutkinto" },
-      desc: { en: "Riistakeskus, RHY structure, 60-question test rules, Oma riista & hunting card.", zh: "野生动物署、RHY基层架构、60题考试全攻略、Oma riista及居民猎人卡。", fi: "Riistakeskus, RHY, 60 kysymyksen koe, Oma riista ja metsästäjävakuutus." }
-    },
-    {
-      id: "doc-02",
-      icon: "🔫",
-      href: "docs/02_firearms_and_licensing.md",
-      title: { en: "02. Firearms & Licensing", zh: "02. 枪械许可与合法持枪", fi: "02. Aseet ja luvitus" },
-      desc: { en: "Police Hankkimislupa as a resident, gun safe laws (EN 14450), supervised shooting.", zh: "以芬兰永居身份向警察局申领购枪证、防盗枪柜标准、无证受监督射击法条。", fi: "Poliisin hankkimislupa asukkaalle, asekaappisäännöt (EN 14450), valvottu ammunta." }
-    },
-    {
-      id: "doc-03",
-      icon: "🏹",
-      href: "docs/03_bow_hunting_alternative.md",
-      title: { en: "03. Bow Hunting Alternative", zh: "03. 现代复合弓猎替代方案", fi: "03. Jousimetsästys" },
-      desc: { en: "Compound bows, draw force (180 N), broadheads, 18m bow test, deer management.", zh: "无枪柜无警局审批的低门槛方案，180牛拉力规范、刀头规格、18米射击考核。", fi: "Taljajouset, vetovoima (180 N), leikkaavat kärjet, 18 m jousikoe, kauriinpyynti." }
-    },
-    {
-      id: "doc-04",
-      icon: "🌲",
-      href: "docs/04_land_access_and_permits.md",
-      title: { en: "04. Land Access & Permits", zh: "04. 猎场获取与配额许可", fi: "04. Metsästysoikeus ja luvat" },
-      desc: { en: "Metsähallitus state lands (Eräluvat.fi), hunting clubs (Metsästysseura), outfitters.", zh: "国家公有林900万公顷日票系统Eräluvat、地方猎会租约机制与商业向导。", fi: "Metsähallituksen valtionmaat (Eräluvat.fi), metsästysseuratoiminta ja kaupalliset jahdit." }
-    },
-    {
-      id: "doc-05",
-      icon: "🦌",
-      href: "docs/05_game_species_and_seasons.md",
-      title: { en: "05. Game Species & Seasons", zh: "05. 芬兰猎物物种与狩猎季", fi: "05. Riistalajit ja metsästysajat" },
-      desc: { en: "Moose, white-tailed deer, forest grouse, waterfowl, big game 75m rifle test.", zh: "驼鹿、白尾鹿、黑琴鸡、野鸭、75米大动物步枪考核（Hirvikoe）动能标准。", fi: "Hirvi, valkohäntäpeura, metsäkanalinnut, vesilinnut, 75 metrin hirvikoe." }
-    },
-    {
-      id: "doc-06",
-      icon: "🧭",
-      href: "docs/06_zero_experience_roadmap.md",
-      title: { en: "06. Zero-Experience Roadmap", zh: "06. 零基础实战四阶段路线图", fi: "06. Aloittelijan tie jahtiin" },
-      desc: { en: "Step-by-step from beater (Ajomies) to first clean shot, field dressing, and hanging.", zh: "从无证驱兽员、飞碟靶场到开猎放血、开膛去内脏与排酸熟化全流程。", fi: "Askel askeleelta ajomiehestä riistan pistämiseen, suolistukseen ja riiputukseen." }
-    },
-    {
-      id: "doc-07",
-      icon: "🛡️",
-      href: "docs/07_safety_gear_and_ethics.md",
-      title: { en: "07. Safety, Gear & Ethics", zh: "07. 安全装备、环保法与北欧礼仪", fi: "07. Turvallisuus ja eräetiikka" },
-      desc: { en: "Blaze orange 2/3 law, wetland lead ban, winter layering, Finnish hunting honor.", zh: "法定2/3面积亮橙警示服、湿地禁铅令、极寒分层保暖与芬兰敬畏自然传统。", fi: "Oranssin värin 2/3-sääntö, kosteikkojen lyijykielto, kerrospukeutuminen ja eräperinne." }
-    },
-    {
-      id: "doc-08",
-      icon: "📖",
-      href: "docs/08_finnish_hunting_glossary.md",
-      title: { en: "08. Finnish Hunting Glossary", zh: "08. 芬兰语狩猎高频词汇与对讲机指令", fi: "08. Eräsanasto ja radiokomennot" },
-      desc: { en: "Essential Finnish hunting commands, radio phrases, and vocabulary in the field.", zh: "森林实战无线电对讲机呼叫术语（“Passit paikalla”, “Hirvi nurin”）及词汇表。", fi: "Metsästyksen erikoissanasto, radiokomennot ja jahtislangit suomeksi ja englanniksi." }
-    }
-  ];
-
   const container = document.getElementById('docs-cards-grid');
   if (!container) return;
   container.innerHTML = '';
 
-  docsData.forEach(d => {
-    const card = document.createElement('a');
-    card.href = d.href;
-    card.target = '_blank';
+  CHAPTERS_DATA.forEach(d => {
+    const card = document.createElement('div');
     card.className = 'option-box';
-    card.style.textDecoration = 'none';
+    card.style.cursor = 'pointer';
     card.innerHTML = `
       <div class="opt-icon">${d.icon}</div>
       <h4>${renderBilingualText(d.title, l1, l2)}</h4>
-      <p>${renderBilingualText(d.desc, l1, l2, true)}</p>
+      <p>${renderBilingualText(d.subtitle, l1, l2, true)}</p>
+      <div style="margin-top: 0.75rem; color: var(--color-orange-500); font-weight: 700; font-size: 0.85rem;">
+        ${l1 === 'zh' ? '点击在线阅读 →' : (l1 === 'fi' ? 'Avaa ja lue →' : 'Read in Handbook →')}
+      </div>
     `;
+    card.addEventListener('click', (e) => {
+      e.preventDefault();
+      openReader(d.id);
+    });
     container.appendChild(card);
   });
 }

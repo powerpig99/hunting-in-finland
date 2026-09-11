@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](07_safety_gear_and_ethics.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 07. Safety, Essential Gear & Hunting Ethics
 
 Safety in the Finnish wilderness is not just a personal habit; it is strictly encoded into criminal law and the hunting code of honor (*eräetiketti*). A single reckless act can revoke your hunting privileges, confiscate your firearms, and endanger fellow forest enthusiasts.

@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](05_game_species_and_seasons.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 05. Finnish Game Species, Seasons & Quotas
 
 Finland offers an extraordinary variety of game species adapted to the boreal taiga, agricultural landscapes, coastal archipelagos, and subarctic fells.

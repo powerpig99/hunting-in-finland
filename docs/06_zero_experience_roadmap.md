@@ -1,3 +1,5 @@
+> 💡 **Tip:** View this chapter in the [Interactive Web Reader](06_zero_experience_roadmap.html) or launch the [Finnish Hunting Guide Portal](../index.html#docs) with trilingual translations (English / 中文 / Suomi) and dual-language comparison mode.
+
 # 06. Zero-Experience Practical Roadmap: From Beginner to First Harvest
 
 If you have never touched a gun, never fired a bow, and have never spent a night in the Finnish wilderness, starting can feel intimidating.
