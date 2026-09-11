@@ -351,7 +351,7 @@ chapters.forEach((ch, idx) => {
       <header class="doc-header-block">
         <div class="doc-chapter-badge">
           <span>${ch.icon}</span>
-          <span>Chapter ${ch.num} of 08</span>
+          <span>Chapter ${ch.num} of ${String(chapters.length).padStart(2, '0')}</span>
         </div>
         <h1 id="doc-article-title" class="doc-title">${ch.title.en}</h1>
         <div id="doc-article-subtitle" class="doc-subtitle-box">${ch.subtitle.en}</div>
@@ -475,4 +475,4 @@ chapters.forEach((ch, idx) => {
   console.log(`Generated docs/${filename}`);
 });
 
-console.log('All 8 documentation HTML files generated successfully.');
+console.log(`All ${chapters.length} documentation HTML files generated successfully.`);

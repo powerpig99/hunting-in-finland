@@ -68,6 +68,10 @@ All documentation can be viewed directly in the **Interactive Web App Reader** o
    - Cold-weather survival gear, layer systems, field dressing (*riistan pistäminen ja suolistus*), and trichinella testing.
 8. **[08. Finnish-English Hunting Glossary](docs/08_finnish_hunting_glossary.html)** ([Markdown](docs/08_finnish_hunting_glossary.md))
    - Essential hunting commands, terminology, and phrases used in forest drives and radio communication.
+9. **[09. Booking a Shooting Session & Joining a Hunting Club](docs/09_booking_shooting_and_joining_clubs.html)** ([Markdown](docs/09_booking_shooting_and_joining_clubs.md))
+   - Zero-experience supervised shooting under Firearms Act Section 88 (*valvottu ammunta*).
+   - Vetted shooting ranges in Southern Finland (Sipoo SSG, Espoo Lahnus, Loppi, Ruoto SimWay, Osuva).
+   - Practical hunting club (*metsästysseura*) application roadmap: local RHY coordinator contacts, summer volunteer work (*talkoot*), unarmed beater (*ajomies*) fast-track, and copy-paste email templates in Finnish & English.
 
 ---
 
