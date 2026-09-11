@@ -46,6 +46,12 @@ Because fragmented land parcels (e.g. 10 to 50 hectares) are too small to suppor
 - **Big Game Monopoly**: Under Finnish law, a continuous hunting area of at least **1,000 hectares** is required to obtain a moose hunting permit from the Wildlife Agency. Moose and white-tailed deer hunting is therefore almost exclusively practiced through clubs.
 - **The Social Core of Finnish Hunting**: Clubs own clubhouses (*seurantalo*), meat processing facilities (*lahtivaja*), cold storage lockers, shooting towers, and shooting ranges. They are where traditions, tracking dogs, and campfire lunches are shared.
 
+### Permanent Resident Rights in Hunting Clubs & Municipalities
+As a **Permanent Resident registered with a Finnish home municipality (*kotikunta*)**:
+- You are not treated as a "foreign guest." You apply for club membership on the same terms as any local resident.
+- **Northern Municipality Free Hunting Right (*Metsästyslaki 8 §*)**: If you reside permanently in Northern Finland (Lapland, Kainuu, Kuusamo/Pudasjärvi/Taivalkoski), Section 8 of the Hunting Act grants all permanent residents the statutory right to hunt small game on state-owned land within their home municipality completely free of charge!
+- In Southern and Central Finland, being a resident allows you to join local clubs as a full or small-game member and buy resident-quota permits.
+
 ### How Can an Outsider or Beginner Join a Club?
 Historically, some rural clubs were closed to non-landowners. Today, demographic shifts have transformed this: **many clubs actively welcome motivated new members**, especially beginners willing to help with club operations.
 

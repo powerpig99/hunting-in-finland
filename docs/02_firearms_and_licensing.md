@@ -39,18 +39,18 @@ Step 7: Police Issue Plastic Possession Permit (Hallussapitolupa)
 ```
 
 ### 1. Application Submission (Online or In-Person)
-- You can apply via the police electronic portal (**[poliisi.fi](https://poliisi.fi)**) using bank authentication.
+- You can apply via the police electronic portal (**[poliisi.fi](https://poliisi.fi)**) using your Finnish bank authentication (*Suomi.fi*).
 - **Application Fee**: Approximately **106 € – 115 €** per firearm.
 - **Documents Required**:
-  - Passport or official Finnish ID card (driving licenses are **not** accepted as official ID for firearm applications).
-  - Valid Hunting Card (*metsästyskortti*).
-  - Written statement of hunting purpose: Explain where you plan to hunt (e.g. Metsähallitus state lands in Lapland/Kainuu, or a local hunting club in Uusimaa) and which species (e.g. waterfowl, forest birds, white-tailed deer).
-  - Men who completed Finnish military service must submit their military pass (*sotilaspassi*); non-Finnish citizens present clean conduct records from their home nation if recently moved.
+  - Valid Passport and Finnish residence permit card (pysyvä oleskelulupa / PR).
+  - Valid Finnish Hunting Card (*metsästyskortti*) with proof of paid game management fee.
+  - Written statement of hunting purpose (*perustelulomake*): Explain where you plan to hunt (e.g. Metsähallitus state lands in Kainuu/Lapland via Eräluvat, or a local hunting club in Uusimaa) and which species (e.g. waterfowl, forest birds, white-tailed deer).
+  - **Military Service Requirement Clarification**: Finnish male citizens are asked for a military passport (*sotilaspassi*). **As a foreign permanent resident, you are legally exempt from Finnish conscription**, so this requirement is simply waived by the police. The police conduct their standard domestic background check through Finnish criminal, healthcare, and police registries.
 
 ### 2. The Police Interview
-- First-time applicants are almost always invited for an in-person interview at the local police department.
-- The officer will ask about your living situation, where the gun will be stored, your hunting plans, and your understanding of firearm safety.
-- An aptitude/suitability questionnaire may be administered.
+- First-time applicants are almost always invited for an in-person interview at the local police department (e.g. Pasila in Helsinki, or your local municipal station).
+- The officer will ask about your living situation, where the gun will be stored (confirm you have an approved locked cabinet or EN 14450 safe), your hunting plans, and your understanding of firearm safety.
+- You may be asked to complete a short electronic aptitude questionnaire on a police computer terminal (testing emotional stability, safety awareness, and suitability). The interview can be conducted in English or Finnish.
 
 ### 3. Purchasing and Physical Firearm Inspection (*Aseen esittäminen*)
 - Once granted, the paper *hankkimislupa* is mailed to you (valid for 1 year).

@@ -1,9 +1,28 @@
-# Hunting in Finland: The Complete Beginner's Guide & Interactive Toolkit
-*Metsästys Suomessa — Aloittelijan kattava opas ja interaktiivinen työkalu*
+# Hunting in Finland: Permanent Resident & Beginner Guide
+*芬兰狩猎全景指南 • Metsästys Suomessa — Pysyvän asukkaan ja aloittelijan opas*
 
-Welcome to the comprehensive guide for hunting in Finland, specifically created for people with **zero prior experience**. Finland possesses one of the richest, most accessible, and most community-rooted hunting cultures in Europe, with over **300,000 registered hunters** (roughly 6% of the population). 
+Welcome to the comprehensive guide for hunting in Finland, specifically tailored for **permanent residents living in Finland** (*pysyvästi Suomessa asuvat*) and newcomers starting with zero prior experience. 
 
-Whether your goal is harvesting sustainable organic wild game meat, connecting with the Finnish boreal wilderness (*eräperinne*), learning traditional woodsman skills, or trying out bow hunting, this repository provides everything you need from legal frameworks to your very first field harvest.
+Finland possesses one of the richest, most accessible, and most community-rooted hunting cultures in Europe, with over **300,000 registered hunters** (roughly 6% of the population). As a permanent resident (PR) registered in Finland with a Finnish personal identity code (*henkilötunnus*), you enjoy the **exact same domestic hunting rights as Finnish citizens**:
+- You do **not** need foreign visitor tourist licenses.
+- You can sit the official Hunter's Examination (*Metsästäjätutkinto*) in **English** or Finnish at your local Game Management Association (RHY).
+- You can apply directly to the Finnish Police (*Poliisi*) for firearm acquisition permits (*hankkimislupa*).
+- You can join local hunting clubs (*metsästysseura*) and purchase state land permits on **Eräluvat.fi**.
+
+---
+
+## 🌐 Trilingual & Dual-Language Comparison Mode
+
+Just like the companion mushroom foraging guide, this project is fully **trilingual** and features a **live dual-language comparison mode**:
+- **Primary Language**: 🇬🇧 English (`en`) • 🇨🇳 中文 (`zh`) • 🇫🇮 Suomi (`fi`)
+- **Secondary Comparison Language (Dual Mode)**: Select any second language in the top header to display side-by-side or stacked bilingual translations across:
+  - The Pathway Finder wizard
+  - The 15-Question Hunter's Exam Practice Quiz (with full question and explanation translations)
+  - The Game Species & Seasons Explorer (14 Finnish game species)
+  - The Startup Budget Calculator
+  - The Field Checklists and Documentation Hub
+
+Your language preferences are automatically saved in your browser (`localStorage`).
 
 ---
 
@@ -12,24 +31,25 @@ Whether your goal is harvesting sustainable organic wild game meat, connecting w
 ### 📚 Comprehensive Documentation Suite (`docs/`)
 1. **[01. Legal Framework & Hunter's Examination](docs/01_legal_framework_and_exam.md)**
    - *Suomen riistakeskus* (Finnish Wildlife Agency) & *Riistanhoitoyhdistys* (RHY).
-   - The examination (*Metsästäjätutkinto*): 60 questions, language options (English, Finnish, Swedish), study resources, passing criteria.
-   - The Hunting Card (*Metsästyskortti*) and mandatory hunter's liability insurance.
-   - *Oma riista* digital portal.
+   - The examination (*Metsästäjätutkinto*): 60 questions, taking the test in English, passing criteria.
+   - Permanent resident registration via *Suomi.fi* banking authentication on *Oma riista*.
+   - The Hunting Card (*Metsästyskortti*) and mandatory statutory hunter's liability insurance.
 2. **[02. Firearms, Licensing & Supervised Shooting](docs/02_firearms_and_licensing.md)**
-   - Finnish Police (*Poliisi*) acquisition permit (*hankkimislupa*) process.
-   - Weapon suitability principle (shotguns vs. rifles vs. calibers).
+   - Applying to Finnish Police (*Poliisi*) for an acquisition permit (*hankkimislupa*) as a permanent resident without Finnish military service.
+   - Weapon suitability principle (12-gauge shotguns vs. .308 Win rifles).
    - Gun safe regulations and home storage laws (EN 14450 standards).
-   - **Crucial Beginner Route**: *Valvottu ammunta* (supervised shooting without holding a gun permit).
+   - **Crucial Beginner Route**: *Valvottu ammunta* (shooting legally without holding a gun permit under immediate supervision).
    - Parallel permits (*rinnakkaislupa*) for sharing firearms.
 3. **[03. Bow Hunting (*Jousimetsästys*) — The Modern Entry Route](docs/03_bow_hunting_alternative.md)**
    - Why bow hunting has exploded in Finland (no police gun permit or gun safe required).
-   - Legal equipment criteria: minimum draw force (180 N / 40.5 lbs), broadhead sizes.
+   - Legal equipment criteria: minimum draw force (180 N / 40.5 lbs), cutting broadhead sizes (≥ 22 mm).
    - The Bow Shooting Test (*jousiampumakoe*) for roe deer, white-tailed deer, and wild boar.
-   - Urban/suburban deer management in Southern Finland.
+   - Suburban deer management in Southern Finland.
 4. **[04. Where to Hunt: Land Access & Permits](docs/04_land_access_and_permits.md)**
    - Understanding hunting rights: Why "Everyman's Right" (*jokamiehenoikeus*) does **not** include hunting.
+   - Permanent resident advantages: Municipal rights in Northern Finland (*Metsästyslaki 8 §*) and resident access in Southern/Central Finland.
    - **Metsähallitus (*Eräluvat.fi*)**: Over 9 million hectares of public state-owned land. Small game permits (*pienriistalupa*).
-   - **Hunting Clubs (*Metsästysseurat*)**: How private land is pooled, club culture, how an outsider or beginner can join or guest-hunt.
+   - **Hunting Clubs (*Metsästysseurat*)**: How private land is pooled, club culture, how to join or guest-hunt.
    - Commercial outfitters and guided hunt options.
 5. **[05. Game Species & Seasons](docs/05_game_species_and_seasons.md)**
    - Small game: Forest grouse (capercaillie, black grouse, hazel grouse), waterfowl (Aug 20 opening), hares.
@@ -53,11 +73,12 @@ Whether your goal is harvesting sustainable organic wild game meat, connecting w
 This project includes a fully standalone, responsive single-page web app built with vanilla web standards (HTML5/CSS3/ES6 JavaScript). No external npm install or server setup is required.
 
 ### Features in the Web App:
-- **🎯 Pathway Finder**: Select your situation (Resident vs. Visitor, Gun vs. Bow vs. Supervised Guide, Target Game) and receive your exact, personalized step-by-step checklist.
-- **📝 Hunter's Exam Practice Quiz**: 25 questions testing species identification, hunting legislation, weapon safety, and forest ecology with instant scoring and explanations.
-- **🌲 Game Species & Season Explorer**: Searchable and filterable database of Finnish game animals, hunting seasons, permitted weapons, and harvest regulations.
-- **💰 Budget & Gear Calculator**: Compare estimated startup costs between Traditional Firearm Hunting, Bow Hunting, and Mentored/Supervised Guest Hunting.
-- **📋 Field Checklist Generator**: Customizable pre-hunt and shooting-range checklists ready to print or check off on your mobile phone.
+- **🌐 Dual-Language Switcher**: Switch freely between English, Chinese, and Finnish, or enable second-language comparison mode with one click.
+- **🎯 Resident Pathway Finder**: Select your weapon choice (Gun, Bow, or Supervised/Mentor) and target game to generate your personalized resident roadmap.
+- **📝 Hunter's Exam Practice Quiz**: 15 exam-style questions with bilingual side-by-side questions and detailed explanations.
+- **🌲 Game Species & Season Explorer**: Searchable database of 14 Finnish game animals with seasons, weapons, and field tips in 3 languages.
+- **💰 Startup Cost & Budget Estimator**: Realistic cost breakdowns for firearms, bow hunting, and guided hunts in Finland.
+- **📋 Field Checklists**: Interactive checklists for Exam Day, Range Practice Day, and First Forest Hunt Day.
 
 ### How to Run the Web App:
 Simply open `index.html` in any web browser, or launch a local static server:
@@ -74,19 +95,10 @@ python3 -m http.server 8000
 
 ---
 
-## ⚖️ Golden Rules for Beginners in Finland
-
-1. **Safety Over Everything**: Never shoot unless you have a 100% positive species identification AND a completely solid ground backstop (*turvallinen tausta*).
-2. **Everyman's Right Has Limits**: In Finland, you can hike, camp, and pick berries freely anywhere, but you **never** have the right to hunt or fish with tackle without specific land permission and permits.
-3. **No Gun Needed to Start**: You do **not** need a firearm license to join a hunting club as a dog driver/beater (*ajomies*), to shoot at a clay range under supervision (*valvottu ammunta*), or to take the national hunter's exam.
-4. **Community Is Key**: Hunting in Finland is deeply social. Joining your local Game Management Association (*riistanhoitoyhdistys*) events or participating in volunteer game management work is the fastest way to find mentors.
-
----
-
 ## 🏛️ Official Finnish Resources
 - **[Riista.fi (Suomen riistakeskus)](https://riista.fi/)** — Official Finnish Wildlife Agency, exam schedules, and laws.
 - **[Oma riista](https://oma.riista.fi/)** — National digital hunting register, digital hunting card, harvest reporting.
 - **[Eräluvat.fi (Metsähallitus)](https://www.eraluvat.fi/)** — State forest hunting permits, maps, and quotas.
 - **[Metsästäjäliitto (Finnish Hunters' Association)](https://metsastajaliitto.fi/)** — Hunter advocacy, training, mentoring, and magazine.
-- **[Poliisi.fi](https://poliisi.fi/)** — Firearm acquisition and possession permits.
+- **[Poliisi.fi](https://poliisi.fi/)** — Firearm acquisition and possession permits for residents.
 - **[Riistainfo.fi](https://riistainfo.fi/)** — Official self-study materials, species recognition, and video guides.

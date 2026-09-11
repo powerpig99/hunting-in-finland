@@ -102,10 +102,17 @@ Download the **Oma riista** mobile app (available on iOS and Android) and regist
 
 ---
 
-## 🌍 Visiting / Foreign Hunters
+## 🇫🇮 Permanent Residents in Finland (*Pysyvästi Suomessa asuvat*)
 
-If you already possess a valid hunting license or permit from your home country (e.g. Germany, UK, USA, France, Sweden), you can obtain a temporary Finnish Hunting Card without sitting the Finnish examination:
-1. Submit a certified copy of your home country hunting license to the coordinator of the local Game Management Association where you plan to hunt.
-2. The RHY will issue a payment order for the 43 € game management fee.
-3. Once paid, a temporary Finnish hunting card is valid for one hunting season.
-4. *Important*: If hunting moose, deer, or bear, you must still provide proof of passing an equivalent home-country shooting test on large game, or pass the Finnish shooting test (*ampumakoe*) on a local range.
+If you live in Finland as a **Permanent Resident (pysyvä oleskelulupa / PR / P-EU)** on your way to Finnish citizenship:
+- **Full Domestic Rights**: You are treated legally as a domestic resident, not a tourist. You do **not** need the temporary visitor permit.
+- **Finnish Identity Code (*Henkilötunnus*)**: Your hunter registry number, RHY membership, and hunting card are tied directly to your Finnish personal identity code and registered home municipality (*kotikunta*).
+- **Online Authentication**: You log into **Oma riista** using your standard Finnish bank credentials (*Suomi.fi tunnistus*).
+- **Taking the Exam in English**: You can take the Finnish Hunter's Exam (*Metsästäjätutkinto*) in **English** right at your local RHY exam session. Once passed, your card is permanent and renews each year simply by paying the annual 43 € fee.
+
+---
+
+## 🌍 Note for Non-Resident Tourists (Foreign Visitors)
+
+Foreign tourists visiting Finland for a short hunting trip who already hold a hunting license in their home country can request a 1-season temporary hunting card from an RHY coordinator. However, for permanent residents living in Finland, the standard *Metsästäjätutkinto* route above is the official, permanent, and proper foundation.
+
