@@ -16,9 +16,9 @@ const CHAPTERS_DATA = [
       fi: "01. Lainsäädäntö ja metsästäjätutkinto"
     },
     subtitle: {
-      en: "Suomen riistakeskus, local RHYs, 60-question exam format in English, Oma riista portal, and permanent resident domestic rights.",
-      zh: "芬兰国家野生动物署、基层猎会架构、全真60题英文考卷、Oma riista注册及永久居民完全国民待遇。",
-      fi: "Suomen riistakeskus, riistanhoitoyhdistykset, 60 kysymyksen tutkinto, Oma riista ja pysyvän asukkaan oikeudet."
+      en: "Suomen riistakeskus, local RHYs, 60-question exam format in English, Oma riista portal, and domestic resident hunting rights.",
+      zh: "芬兰国家野生动物署、基层猎会架构、全真60题英文考卷、Oma riista注册及本地居民完全国民待遇。",
+      fi: "Suomen riistakeskus, riistanhoitoyhdistykset, 60 kysymyksen tutkinto, Oma riista ja asukkaan metsästysoikeudet."
     },
     content: {
       en: `
@@ -47,10 +47,10 @@ const CHAPTERS_DATA = [
           <strong>Taking the Exam in English:</strong> You can officially sit the Hunter's Exam in <strong>English</strong>! While study books (<em>Metsästäjän opas</em>) are published in Finnish and Swedish, English exam question sheets are available at any RHY session upon request.
         </div>
 
-        <h2>🇫🇮 Permanent Resident Rights (Pysyvä oleskelulupa / PR)</h2>
-        <p>If you reside in Finland as a permanent resident on your way to citizenship:</p>
+        <h2>🇫🇮 Domestic Hunting Rights for Residents in Finland</h2>
+        <p>If you reside in Finland (as a permanent resident, long-term resident, or on track to citizenship):</p>
         <ul>
-          <li><strong>Equal Domestic Rights</strong>: You are treated legally as a domestic resident. You do <strong>not</strong> need foreign tourist visitor permits.</li>
+          <li><strong>Equal Domestic Rights</strong>: You are treated legally as a domestic hunter. You do <strong>not</strong> need foreign tourist visitor permits.</li>
           <li><strong>Personal ID (Henkilötunnus)</strong>: Your hunter registry number and RHY membership are linked directly to your Finnish identity code and home municipality.</li>
           <li><strong>Suomi.fi Authentication</strong>: Log into <strong>Oma riista</strong> with your Finnish bank ID to access your digital hunting card and log harvests.</li>
           <li><strong>Annual Fee (43 €)</strong>: Paying the annual Game Management Fee (<em>riistanhoitomaksu</em>) provides your official Hunting Card and automatically includes statutory third-party hunter's liability insurance.</li>
@@ -82,10 +82,10 @@ const CHAPTERS_DATA = [
           <strong>可直接申请英文考卷：</strong> 官方考试明确提供 <strong>英文考卷</strong>！考生只需在抵达考场时向前台考官说明即可领取全英文纸质考卷。考试费为每次 20 欧元。
         </div>
 
-        <h2>🇫🇮 芬兰永久居民（PR）法律地位说明</h2>
-        <p>作为在芬兰定居、持有永居卡并迈向入籍的居民：</p>
+        <h2>🇫🇮 芬兰本土狩猎权益与常住居民身份说明</h2>
+        <p>只要您在芬兰定居生活（持有芬兰个人税号与常住居留）：</p>
         <ul>
-          <li><strong>完全国民待遇</strong>：享有与芬兰公民完全同等的权利，彻底告别游客短期通行证（Tourism Pass）。</li>
+          <li><strong>完全国民待遇</strong>：享有与芬兰本土猎人完全同等的法定权益，彻底告别游客短期通行证（Tourism Pass）。</li>
           <li><strong>绑定芬兰税号（Henkilötunnus）</strong>：您的猎人编号与所属当地RHY完全挂钩您的常住户籍地（Kotikunta）。</li>
           <li><strong>银行电子认证（Suomi.fi）</strong>：通过银行APP直接登录 <strong>Oma riista</strong>，激活电子猎人卡与上报捕获战果。</li>
           <li><strong>每年仅需43欧元</strong>：缴纳法定义务狩猎管理费（Riistanhoitomaksu）后，自动获得覆盖全芬兰的持证猎人第三方人身财产责任险。</li>
@@ -117,9 +117,9 @@ const CHAPTERS_DATA = [
           <strong>Kokeen suorittaminen englanniksi:</strong> Tutkinnon voi virallisesti suorittaa myös englannin kielellä! Pyydä englanninkielinen koelomake kokeen vastaanottajalta.
         </div>
 
-        <h2>🇫🇮 Pysyvän asukkaan asema Suomessa</h2>
+        <h2>🇫🇮 Asukkaan asema ja oikeudet Suomessa</h2>
         <ul>
-          <li><strong>Täydet kotimaiset oikeudet</strong>: Sinua kohdellaan kotimaisena metsästäjänä; et tarvitse turistilupia.</li>
+          <li><strong>Täydet kotimaiset oikeudet</strong>: Sinua kohdellaan kotimaisena metsästäjänä; et tarvitse mitään turistilupia.</li>
           <li><strong>Henkilötunnus</strong>: Metsästäjänumero ja RHY-jäsenyys kytkeytyvät suoraan henkilötunnukseesi ja kotikuntaasi.</li>
           <li><strong>Pankkitunnistus</strong>: Kirjaudu Oma riistaan verkkopankkitunnuksilla (Suomi.fi).</li>
           <li><strong>Riistanhoitomaksu (43 €)</strong>: Sisältää metsästyskortin ja lakisääteisen metsästäjävakuutuksen.</li>
@@ -138,19 +138,19 @@ const CHAPTERS_DATA = [
       fi: "02. Ampuma-aseet, luvitus ja valvottu ammunta"
     },
     subtitle: {
-      en: "Applying to Finnish Police (Poliisi) as a permanent resident, weapon suitability, certified safe standards (EN 14450), and shooting under supervision without a permit.",
-      zh: "以芬兰永居身份向警察局申办购枪证（无需兵役证明）、枪支口径与猎物匹配原则、EN 14450防盗枪柜及合法近身受监督射击。",
-      fi: "Hankkimislupa poliisilta pysyvälle asukkaalle, aseen soveltuvuus, asekaappimääräykset ja laillinen valvottu ammunta ilman aselupaa."
+      en: "Applying to Finnish Police (Poliisi) for firearm acquisition permits, weapon suitability, certified safe standards (EN 14450), and shooting under supervision without a personal permit.",
+      zh: "向芬兰警察局申办购枪证流程、枪支口径与猎物匹配原则、EN 14450防盗枪柜法规及合法近身受监督射击。",
+      fi: "Hankkimislupa poliisilta asukkaalle, aseen soveltuvuus, asekaappimääräykset ja laillinen valvottu ammunta ilman omaa aselupaa."
     },
     content: {
       en: `
-        <h2>🏛️ Applying to the Finnish Police (Poliisi) as a Permanent Resident</h2>
-        <p>Under the Finnish Firearms Act (<em>Ampuma-aselaki</em>), hunting weapons are granted based on genuine hunting need. As a permanent resident:</p>
+        <h2>🏛️ Applying to the Finnish Police (Poliisi) for a Firearm Acquisition Permit</h2>
+        <p>Under the Finnish Firearms Act (<em>Ampuma-aselaki</em>), hunting weapons are granted based on genuine hunting need. For residents applying in Finland:</p>
         <ol>
-          <li><strong>Exemption from Military Service</strong>: Finnish male citizens must show a military passport (<em>sotilaspassi</em>). Foreign permanent residents are legally exempt from conscription; police simply waive this requirement.</li>
-          <li><strong>Application Submission</strong>: Apply online via <strong>poliisi.fi</strong> using your bank ID. Attach your Hunting Card and a statement of your hunting grounds and target species. Fee: ~106 € – 115 €.</li>
-          <li><strong>Police Interview</strong>: An in-person interview at your local police station (can be conducted in English). You will confirm storage plans and complete an aptitude test on a police computer terminal.</li>
-          <li><strong>Inspection</strong>: Within 30 days of purchasing your firearm, bring the unloaded gun in a locked case to the police station for serial number verification to receive your plastic Firearms Card (<em>Asekortti</em>).</li>
+          <li><strong>Military Service Clarification</strong>: Finnish male citizens must show a military passport (<em>sotilaspassi</em>). Foreign residents residing in Finland are legally exempt from conscription; police automatically waive this requirement upon verifying your registry status.</li>
+          <li><strong>Online Application Submission</strong>: Apply via <strong>poliisi.fi</strong> using your bank ID. Attach your Hunting Card and a statement of your planned hunting grounds and target species. Fee: ~106 € – 115 €.</li>
+          <li><strong>Police Interview</strong>: An in-person interview at your local police station (can be conducted in English or Finnish). You will confirm storage plans and complete a standard safety aptitude test on a computer terminal.</li>
+          <li><strong>Inspection & Firearms Card</strong>: Within 30 days of purchasing your firearm, bring the unloaded gun in a locked case to the police station for serial number verification to receive your permanent plastic Firearms Card (<em>Asekortti</em>).</li>
         </ol>
 
         <h2>🔒 Safe Storage Laws (EN 14450 Standard)</h2>
@@ -165,13 +165,13 @@ const CHAPTERS_DATA = [
         </div>
       `,
       zh: `
-        <h2>🏛️ 芬兰永久居民向警察局（Poliisi）申领枪证流程</h2>
-        <p>在芬兰，枪支绝不可用于所谓的“防身防卫”，但作为合法登记的永久居民，因狩猎用途申请枪证受到法律充分保护与尊重：</p>
+        <h2>🏛️ 向芬兰警察局（Poliisi）申领枪支执照流程</h2>
+        <p>在芬兰，枪支绝不可用于所谓的“防身防卫”，枪械申请基于“真实狩猎需求”原则。对于定居芬兰的申请人：</p>
         <ol>
-          <li><strong>兵役证明直接豁免</strong>：芬兰本国男性公民申请枪证需提交退伍军人证（Sotilaspassi）。<strong>作为外国籍永久居民，您依法豁免服兵役，警察局直接免除此项审核</strong>，仅调取本地无犯罪记录与医疗评估。</li>
+          <li><strong>兵役证明依法免除</strong>：芬兰本国男性公民申请枪证需提交退伍军人证（Sotilaspassi）。<strong>外国籍常住居民依法免服芬兰兵役，警察局在审理时直接免除此项要求</strong>，按常规调取本地无犯罪记录与医疗安全评估。</li>
           <li><strong>网上提交申请</strong>：凭银行ID在 <strong>poliisi.fi</strong> 电子政务系统填表，上传猎人卡照片并填写猎场说明（如购买国家林业局Eräluvat日票打水鸭或加入本地猎会打鹿）。每把枪规费约106-115欧元。</li>
-          <li><strong>警局现场面试</strong>：前往辖区警察局（如赫尔辛基Pasila警局）接受当面面谈（可用英语交流）。警官会询问枪支存放地点，并在警局电脑上完成心理与安全认知问卷。</li>
-          <li><strong>警局核验证件</strong>：获发购枪许可证（Hankkimislupa）后1年内至枪店购枪。购枪后30天内，携带退弹锁在封闭枪箱内的枪支前往警局核验枪号与枪管长度，换发永久塑料枪证（Asekortti）。</li>
+          <li><strong>警局现场面试</strong>：前往辖区警察局（如赫尔辛基Pasila警局或所在市镇警局）接受常规面谈（可用英语沟通）。警官会询问枪支存放地点，并在警局电脑上完成心理与安全认知问卷。</li>
+          <li><strong>警局核验证件</strong>：获发购枪许可证（Hankkimislupa）后前往枪店选购。购枪后30天内，携带未上膛并妥善锁闭的枪支前往警局核验枪号换发永久持枪证（Asekortti）。</li>
         </ol>
 
         <h2>🔒 枪支安全存放与防盗枪柜（EN 14450 标准）</h2>
@@ -186,9 +186,9 @@ const CHAPTERS_DATA = [
         </div>
       `,
       fi: `
-        <h2>🏛️ Hankkimisluvan hakeminen pysyvänä asukkaana</h2>
+        <h2>🏛️ Hankkimisluvan hakeminen poliisilta asukkaana</h2>
         <ol>
-          <li><strong>Asevelvollisuus</strong>: Ulkomaalainen pysyvä asukas on vapautettu Suomen asevelvollisuudesta; sotilaspassia ei vaadita.</li>
+          <li><strong>Asevelvollisuus</strong>: Ei-kansalaiselle pysyvälle asukkaalle asevelvollisuuden sotilaspassivaatimus katsotaan suoraan täytetyksi.</li>
           <li><strong>Hakemus</strong>: Hae lupaa poliisi.fi-palvelussa pankkitunnuksilla. Liitä mukaan metsästyskortti ja perustelut (metsästysmaat ja riistalajit). Maksu n. 106–115 €.</li>
           <li><strong>Poliisin haastattelu</strong>: Haastattelu poliisiasemalla (mahdollista englanniksi tai suomeksi) ja soveltuvuustesti.</li>
           <li><strong>Aseen esittäminen</strong>: Osta ase ja esitä se poliisille 30 päivän kuluessa asekortin saamiseksi.</li>
@@ -225,7 +225,7 @@ const CHAPTERS_DATA = [
     content: {
       en: `
         <h2>🌟 Why Bow Hunting Is Thriving in Finland</h2>
-        <p>For permanent residents living in urban flats in Helsinki, Espoo, or Vantaa, <strong>bow hunting (jousimetsästys)</strong> provides an exceptional, modern entry route:</p>
+        <p>For residents living in urban flats or suburban areas (such as the Helsinki Metropolitan Area), <strong>bow hunting (jousimetsästys)</strong> provides an exceptional, modern entry route:</p>
         <ul>
           <li><strong>Zero Police Bureaucracy</strong>: Hunting bows are classified as sports equipment, not firearms. No police background interviews, no acquisition permits, and no certified steel safes in your apartment!</li>
           <li><strong>Suburban Deer Management</strong>: White-tailed deer and roe deer are extremely abundant in Uusimaa and Southwest Finland. Because firearms cannot be discharged near residential buildings, hunting clubs actively recruit bow hunters for stealthy management.</li>
@@ -255,7 +255,7 @@ const CHAPTERS_DATA = [
       `,
       zh: `
         <h2>🌟 为什么复合弓猎在芬兰城市居民中迅速风靡？</h2>
-        <p>对于生活在赫尔辛基、埃斯波或万塔公寓中的常住居民，<strong>现代复合弓猎（Jousimetsästys）</strong>是体验狩猎极具吸引力的捷径：</p>
+        <p>对于生活在城市公寓或住宅区的常住居民（如大赫尔辛基地区），<strong>现代复合弓猎（Jousimetsästys）</strong>是体验狩猎极具吸引力的现代捷径：</p>
         <ul>
           <li><strong>完全免除警察局审批与枪柜</strong>：在芬兰法律中，猎弓属于体育器材，不受《枪支法》管控！无需向警察局网申排期、免去警局面谈，也不必在公寓卧室里安装笨重的加固防盗枪柜。</li>
           <li><strong>近郊白尾鹿治理主力军</strong>：芬兰南部（乌西玛大区）白尾鹿与狍鹿极其泛滥。由于民居周围150米内禁止开枪，许多猎会极为渴求安静且安全的弓猎手参与庭院周边的减害控群。</li>
@@ -314,7 +314,7 @@ const CHAPTERS_DATA = [
     },
     subtitle: {
       en: "Why Everyman's Right excludes hunting, 9M hectares of public state forests on Eräluvat.fi, resident municipal rights (§ 8), and how to join a hunting club.",
-      zh: "自然漫游权绝对排除狩猎、国家林业局900万公顷公有森林日票系统、芬兰北部永居免票权（第8条）及加入地方猎会攻略。",
+      zh: "自然漫游权绝对排除狩猎、国家林业局900万公顷公有森林日票系统、芬兰北部居民免票权（第8条）及加入地方猎会攻略。",
       fi: "Miksi jokamiehenoikeus ei kata metsästystä, Metsähallituksen Eräluvat 9 miljoonalle hehtaarille, 8 §:n vapaa metsästysoikeus pohjoisessa ja seuroihin liittyminen."
     },
     content: {
@@ -334,7 +334,7 @@ const CHAPTERS_DATA = [
         <p>In Southern and Central Finland, private forest parcels are aggregated by local hunting clubs into territories of 2,000 to 25,000 hectares:</p>
         <ul>
           <li><strong>Big Game Requirement</strong>: Finnish law requires at least 1,000 hectares of contiguous land to issue moose hunting permits. Moose and deer hunting is therefore organized through clubs.</li>
-          <li><strong>Joining as a Permanent Resident</strong>: You can apply as a resident member. Clubs are actively recruiting reliable new members willing to volunteer for summer maintenance, building high seats, and game feeding.</li>
+          <li><strong>Joining as a Local Resident</strong>: You can apply as a resident member. Clubs actively recruit reliable new members willing to volunteer for summer maintenance, building high seats, and game feeding.</li>
           <li><strong>The Beater Fast-Track (Ajomies)</strong>: Volunteer to walk drive lines in autumn moose hunts. No gun or hunting card required to be a beater, and it is the fastest way to earn trust and mentorship!</li>
         </ul>
       `,
@@ -347,14 +347,14 @@ const CHAPTERS_DATA = [
         <ul>
           <li><strong>小猎物日票（Pienriistalupa）</strong>：持有效猎人卡直接在 <strong>Eräluvat.fi</strong> 在线购买，日票约10-25欧元。涵盖松鸡、黑琴鸡、野鸭与野兔。</li>
           <li><strong>外来害兽清除票</strong>：针对外来物种貉（Supikoira）和美洲水貂，全季仅需约10欧元，是极佳的新手练兵场。</li>
-          <li><strong>芬兰北部永居免票法案（《狩猎法》第8条）</strong>：如果您的永居户籍登记在拉普兰或凯努（Kainuu）等北部市镇，法律赋予您在本市镇范围内国家土地上<strong>完全免费狩猎小猎物</strong>的特权！</li>
+          <li><strong>芬兰北部居民免票法案（《狩猎法》第8条）</strong>：如果您的常住户籍登记在拉普兰或凯努（Kainuu）等北部市镇，法律赋予您在本市镇范围内国家土地上<strong>完全免费狩猎小猎物</strong>的特权！</li>
         </ul>
 
         <h2>🏡 2. 地方私有林狩猎协会（Metsästysseurat）</h2>
         <p>在芬兰南部与中部，私人林地由当地狩猎俱乐部整合租用，形成 2,000 至 25,000 公顷的连片优质猎场：</p>
         <ul>
           <li><strong>大型猎物法定准入</strong>：法律规定发放驼鹿狩猎配额必须具备至少 1,000 公顷连片林地，因此驼鹿与白尾鹿狩猎全都在俱乐部框架下展开。</li>
-          <li><strong>永居居民入会攻略</strong>：芬兰猎会非常欢迎积极勤劳的新血液！主动参与夏季维护、搭建高位猎塔（Passitorni）、为鹿群冬季投料（Riistaruokinta）是最佳破冰方式。</li>
+          <li><strong>本地居民入会攻略</strong>：芬兰猎会非常欢迎积极勤劳的新鲜血液！主动参与夏季维护、搭建高位猎塔（Passitorni）、为鹿群冬季投料（Riistaruokinta）是最佳破冰方式。</li>
           <li><strong>无枪驱兽员捷径（Ajomies）</strong>：报名作为秋季围猎的橙色背心驱兽员。完全无需枪证与猎人卡，在林间穿行呼喊配合猎犬驱赶猎物，不仅能结识资深导师，赛后还能在篝火旁分得鲜美野味！</li>
         </ul>
       `,

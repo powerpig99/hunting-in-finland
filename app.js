@@ -314,8 +314,8 @@ function renderWizardPlan() {
       fi: "Vaihe 2: Metsästäjätutkinto (myös englanniksi) ja metsästyskortti (kuukaudet 1–2)"
     },
     desc: {
-      en: "Attend a weekend preparatory course (~40 €) and take the 60-question Hunter's Exam (Metsästäjätutkinto, 20 €) at your local RHY. As a permanent resident with banking ID (Suomi.fi), register on Oma riista and pay the annual 43 € Game Management Fee to activate your hunting card and insurance.",
-      zh: "参加当地猎会预备班（约40欧），并在当地RHY考点参加60题猎人考试（20欧，可现场要求英文考卷）。通过后使用芬兰银行电子ID登录Oma riista，缴纳43欧管理费激活猎人卡及附带的人身意外险。",
+      en: "Attend a weekend preparatory course (~40 €) and take the 60-question Hunter's Exam (Metsästäjätutkinto, 20 €) at your local RHY (available in English). Register on Oma riista using your Finnish personal ID and banking credentials (Suomi.fi), then pay the annual 43 € Game Management Fee to activate your hunting card and statutory insurance.",
+      zh: "参加当地猎会预备班（约40欧），并在当地RHY考点参加60题猎人考试（20欧，可现场要求英文考卷）。通过后使用芬兰个人税号及银行电子认证（Suomi.fi）登录Oma riista，缴纳43欧管理费激活官方猎人卡及法定义务险。",
       fi: "Osallistu RHY:n valmentavalle kurssille ja suorita 60 kysymyksen metsästäjätutkinto (20 €). Kirjaudu suomalaisilla pankkitunnuksilla Oma riistaan ja maksa 43 euron riistanhoitomaksu, joka aktivoi metsästyskortin ja vakuutuksen."
     }
   });
@@ -330,7 +330,7 @@ function renderWizardPlan() {
         fi: "Vaihe 3: Taljajousen hankinta ja 3D-harjoittelu (kuukaudet 2–3)"
       },
       desc: {
-        en: "Purchase a compound hunting bow with draw weight ≥ 180 N (40.5 lbs) and legal cutting broadheads (≥ 22 mm). No police permit or gun safe needed! If hunting deer, take the 18-meter Bow Shooting Test (Jousiampumakoe, 20 €).",
+        en: "Purchase a compound hunting bow with draw weight ≥ 180 N (40.5 lbs) and legal cutting broadheads (≥ 22 mm). No police permit or gun safe required! If hunting deer, take the 18-meter Bow Shooting Test (Jousiampumakoe, 20 €).",
         zh: "购入拉力≥40.5磅的复合猎弓和法定割裂式刀头箭（≥22mm）。完全免除警察局办证和厚重枪柜！若计划猎白尾鹿或狍子，参加18米弓猎测试（20欧）。",
         fi: "Hanki metsästysjousi (vetovoima väh. 180 N) ja leikkaavat kärjet (väh. 22 mm). Ei aselupia tai asekaappia! Peuran ja kauriin pyyntiin suorita 18 metrin jousikoe (20 €)."
       }
@@ -340,13 +340,13 @@ function renderWizardPlan() {
       chapterId: "ch2",
       title: {
         en: "Step 3: Police Firearm Permit (Hankkimislupa) & Safe (Months 2–4)",
-        zh: "第3步：向警察局申请居民购枪许可证（Hankkimislupa）（第2–4个月）",
+        zh: "第3步：向警察局申领购枪许可证（Hankkimislupa）（第2–4个月）",
         fi: "Vaihe 3: Hankkimislupa poliisilta ja aseen hankinta (kuukaudet 2–4)"
       },
       desc: {
-        en: "As a permanent resident, apply electronically on Poliisi.fi with your Hunting Card. Interview at the local police station. Buy a 12-gauge shotgun (birds/hare) or .308 rifle (deer/moose), and present for physical serial number inspection within 30 days.",
-        zh: "凭借永居身份、猎人卡及居留证明直接在Poliisi.fi网申购枪证（约106欧）。前往所属警察局面试。获批后购买12号双管霰弹枪或.308步枪，30天内携未上膛枪支前往警局验枪录入系统。",
-        fi: "Hae poliisin sähköisessä asioinnissa hankkimislupaa metsästyskortilla. Käy haastattelussa. Osta 12-kaliiperinen haulikko tai .308-kivääri ja esitä se poliisille 30 päivän kuluessa."
+        en: "Apply electronically on Poliisi.fi with your Hunting Card. Complete a brief interview at your local police station (military service requirements are waived for non-citizens). Purchase a 12-gauge shotgun (birds/hare) or .308 rifle (deer/moose), and present it for serial number inspection within 30 days.",
+        zh: "凭借猎人卡及身份证明直接在Poliisi.fi网申购枪证（约106欧）。前往所属警察局接受常规安全面谈（非芬兰公民免服兵役，免除军人证审核）。获批后购买12号双管霰弹枪或.308步枪，30天内携枪前往警局核验枪号换发持枪证。",
+        fi: "Hae poliisin sähköisessä asioinnissa hankkimislupaa metsästyskortilla. Käy haastattelussa (ei-kansalaisille sotilaspassivaatimus katsotaan suoraan täytetyksi). Osta 12-kaliiperinen haulikko tai .308-kivääri ja esitä se poliisille 30 päivän kuluessa."
       }
     });
 

@@ -104,9 +104,9 @@ Download the **Oma riista** mobile app (available on iOS and Android) and regist
 
 ---
 
-## 🇫🇮 Permanent Residents in Finland (*Pysyvästi Suomessa asuvat*)
+## 🇫🇮 Domestic Hunting Framework for Residents (*Pysyvästi Suomessa asuvat*)
 
-If you live in Finland as a **Permanent Resident (pysyvä oleskelulupa / PR / P-EU)** on your way to Finnish citizenship:
+If you reside in Finland (as a permanent resident, long-term resident, or on track to citizenship):
 - **Full Domestic Rights**: You are treated legally as a domestic resident, not a tourist. You do **not** need the temporary visitor permit.
 - **Finnish Identity Code (*Henkilötunnus*)**: Your hunter registry number, RHY membership, and hunting card are tied directly to your Finnish personal identity code and registered home municipality (*kotikunta*).
 - **Online Authentication**: You log into **Oma riista** using your standard Finnish bank credentials (*Suomi.fi tunnistus*).

@@ -10,7 +10,7 @@ const I18N = {
   ui: {
     en: {
       siteBrand: "🌲 Eräopas Suomi",
-      siteBadge: "FINLAND RESIDENT",
+      siteBadge: "FINLAND FIELD GUIDE",
       navWizard: "🎯 Pathway Finder",
       navQuiz: "📝 Exam Practice",
       navSpecies: "🦌 Game Species",
@@ -19,9 +19,9 @@ const I18N = {
       navDocs: "📚 Deep Dive Docs",
 
       heroTag: "🌲 Finnish Wildlife Stewardship & Hunting Guide",
-      heroTitle: "Hunting in Finland: <br><span class=\"highlight\">Permanent Resident & Beginner Guide</span>",
-      heroSubtitle: "A definitive, safety-first guide for permanent residents living in Finland. Learn how to take the Hunter's Exam in English, navigate Finnish Police firearm permits as a resident, master bow hunting without gun safe bureaucracy, access 9+ million hectares of state land, and harvest ethical organic game.",
-      heroBtnWizard: "Find Your Resident Starting Route 🎯",
+      heroTitle: "Hunting in Finland: <br><span class=\"highlight\">The Complete Beginner's Field Guide</span>",
+      heroSubtitle: "An authoritative, safety-first guide to hunting, game ecology, and wildlife stewardship in Finland. Learn how to prepare for the Hunter's Exam in English, navigate domestic firearm licensing, explore modern bow hunting, access 9+ million hectares of public state forests, and harvest ethical wild game from scratch.",
+      heroBtnWizard: "Find Your Starting Route 🎯",
       heroBtnQuiz: "Take Practice Exam (15 Qs) 📝",
 
       stat1Num: "300,000+",
@@ -31,14 +31,14 @@ const I18N = {
       stat3Num: "English / FI",
       stat3Label: "Hunter's Exam Available in English, Finnish & Swedish",
       stat4Num: "Resident Rights",
-      stat4Label: "Full resident access to gun permits, clubs & state tags",
+      stat4Label: "Full domestic access to gun permits, clubs & state tags",
 
-      prNoticeTitle: "🇫🇮 Permanent Resident Status in Finland",
-      prNoticeBody: "As a permanent resident (pysyvä oleskelulupa / PR), you hold the same domestic hunting rights as citizens: you register with your local Game Management Association (RHY) using your personal ID (henkilötunnus), apply for firearm permits directly with the Finnish Police (Poliisi), and have full access to local/regional state land permits and hunting club memberships. No foreign visitor licenses needed!",
+      prNoticeTitle: "🌲 Living in Finland: Domestic Hunting Framework & Fast-Track",
+      prNoticeBody: "If you reside in Finland, you participate under the full domestic system: you register with your local Game Management Association (RHY) using your Finnish personal ID (henkilötunnus), authenticate via Suomi.fi online banking, take the Hunter's Exam in English, and apply for standard police firearm permits (with military service requirements waived for non-citizens). There is no need for tourist passes—you have direct access to over 9 million hectares of Metsähallitus state lands and local hunting clubs from day one.",
 
       wizardTag: "Step-by-Step Advisor",
-      wizardTitle: "Permanent Resident Pathway Finder",
-      wizardSubtitle: "Select your preferred approach to generate your exact resident roadmap, timeline, and permit requirements.",
+      wizardTitle: "Hunter Pathway Finder",
+      wizardSubtitle: "Select your preferred approach to generate your exact roadmap, timeline, and permit requirements.",
       wizardStep1: "1. What is your preferred weapon route?",
       wizardStep2: "2. What game do you want to pursue first?",
       wizardStep3: "3. What is your budget and timeline?",
@@ -90,7 +90,7 @@ const I18N = {
       docsTitle: "Deep Dive Handbooks",
       docsSubtitle: "Full-length comprehensive documentation chapters located in the docs/ folder.",
 
-      footerDesc: "An educational project and practical guide created for permanent residents and beginners aspiring to participate in sustainable Finnish wildlife stewardship.",
+      footerDesc: "A comprehensive educational project and practical field guide for outdoor enthusiasts, residents, and beginners in Finland, fostering safe, ethical, and sustainable wildlife stewardship.",
       footerAuthTitle: "Official Finnish Authorities",
       footerAssocTitle: "Hunting Associations & Training",
       footerNote: "Created for outdoor learning. Always verify regional quotas and seasonal dates on official Finnish portals before heading into the forest."
@@ -98,18 +98,18 @@ const I18N = {
 
     zh: {
       siteBrand: "🌲 芬兰狩猎指南 • Eräopas Suomi",
-      siteBadge: "芬兰永居/居民专版",
+      siteBadge: "芬兰野外实战指南",
       navWizard: "🎯 路径规划器",
       navQuiz: "📝 考试模拟测验",
       navSpecies: "🦌 猎物物种图鉴",
       navCalc: "💰 预算计算器",
       navChecklists: "📋 备考与出猎清单",
-      navDocs: "📚 深度中文文档",
+      navDocs: "📚 深度研习手册",
 
       heroTag: "🌲 芬兰野外生态管理与狩猎实战指南",
-      heroTitle: "芬兰狩猎全景指南：<br><span class=\"highlight\">从零基础、永居居民到首次丰收</span>",
-      heroSubtitle: "专为在芬兰生活的永久居民与新移民量身打造的权威安全野外指南。详解如何用英语参加芬兰国家猎人资格考试（Metsästäjätutkinto）、以居民身份向芬兰警察局（Poliisi）合法申请枪证、免去枪柜繁琐手续的复合弓猎路线、获取国家林业局（Metsähallitus）900万公顷公有森林狩猎许可，并合规获取绿色有机野味。",
-      heroBtnWizard: "生成居民定制新手路径 🎯",
+      heroTitle: "芬兰狩猎全景指南：<br><span class=\"highlight\">零基础入门与本地实战全攻略</span>",
+      heroSubtitle: "专为在芬兰生活的户外爱好者与零基础新手打造的权威安全野外指南。系统详解如何使用英文参加芬兰国家猎人资格考试（Metsästäjätutkinto）、以本土居民身份合规申领枪证、探索免去枪柜手续的现代复合弓猎、畅行国家林业局900万公顷公有森林配额许可，并从零开始收获绿色有机的自然野味。",
+      heroBtnWizard: "定制您的新手发展路径 🎯",
       heroBtnQuiz: "进入15题全真考试模拟 📝",
 
       stat1Num: "300,000+",
@@ -118,15 +118,15 @@ const I18N = {
       stat2Label: "国家林业局（Eräluvat）公有狩猎森林面积（公顷）",
       stat3Num: "英语 / 芬兰语",
       stat3Label: "官方猎人资格考试可直接申请英文考卷",
-      stat4Num: "居民完全平权",
-      stat4Label: "芬兰永居享有与公民完全相同的持枪、入会与购票权",
+      stat4Num: "本土完全平权",
+      stat4Label: "在芬居民享有完全同等的持枪、入会与公有森林购票权",
 
-      prNoticeTitle: "🇫🇮 芬兰永久居民（PR）法律地位说明",
-      prNoticeBody: "作为在芬兰拥有个人税号（Henkilötunnus）及登记常住住址（Kotikunta）的永久居民，您享有与芬兰公民完全同等的狩猎国民待遇：凭银行电子ID（Suomi.fi）注册国家野生动物门户Oma riista、在当地猎业协会（RHY）缴纳狩猎管理费、直接向芬兰警察局申请枪支执照（Hankkimislupa）、购买国家森林配额票（Eräluvat）以及加入当地狩猎协会（Metsästysseura），完全无需游客临时通行证！",
+      prNoticeTitle: "🌲 定居芬兰：本土狩猎制度与零基础快速通道",
+      prNoticeBody: "只要您常住芬兰并拥有芬兰个人税号（Henkilötunnus），即可完全依托本土国民管理体系参与狩猎：凭银行电子认证（Suomi.fi）登录国家野生动物门户 Oma riista、在所属基层猎会（RHY）报考资格考试（可直接申请英文考卷）、依法向芬兰警察局申领枪证（非本国公民依法免服兵役，免除军人证审核），并以本地居民身份直接购买国家林业局（Eräluvat）900万公顷公有森林配额或申请加入当地民间猎会，无需办理繁琐的短期游客通行证。",
 
       wizardTag: "智能规划向导",
-      wizardTitle: "芬兰永久居民狩猎路径规划器",
-      wizardSubtitle: "根据您的武器偏好、目标猎物和预算，量身定制从零开始的最佳合法实践步骤。",
+      wizardTitle: "芬兰猎人发展路径规划器",
+      wizardSubtitle: "根据您的武器偏好、目标猎物与时间预算，量身定制从零开始的最佳合法实践步骤与装备建议。",
       wizardStep1: "1. 您偏好哪种武器方案？",
       wizardStep2: "2. 您的首选目标猎物是什么？",
       wizardStep3: "3. 您的预算与时间预期如何？",
@@ -174,11 +174,11 @@ const I18N = {
       clRangeTitle: "🎯 靶场实弹射击练习",
       clHuntTitle: "🌲 森林首次实战出猎",
 
-      docsTag: "深度中文研习中心",
+      docsTag: "深度研习手册",
       docsTitle: "全套8章深度研习手册",
-      docsSubtitle: "存储在 docs/ 目录下的系统化万字专业文档，建议深入阅读。",
+      docsSubtitle: "存储在 docs/ 目录下的系统化专业文档，支持在线阅读与双语对照。",
 
-      footerDesc: "专为芬兰华人居民及零基础户外爱好者打造的生态友好型可持续野生动物管理指引与实战手册。",
+      footerDesc: "专为在芬兰生活的户外爱好者及零基础新手打造的生态友好型可持续野生动物管理指引与实战手册。",
       footerAuthTitle: "芬兰官方监管机构",
       footerAssocTitle: "行业协会与官方培训平台",
       footerNote: "本指南用于野外技能与法律知识普及。实际出猎前请务必在芬兰官方门户确认当季具体区域配额与最新禁猎日期。"
@@ -186,7 +186,7 @@ const I18N = {
 
     fi: {
       siteBrand: "🌲 Eräopas Suomi",
-      siteBadge: "SUOMEN ASUKKAAT",
+      siteBadge: "KOTIMAINEN ERÄOPAS",
       navWizard: "🎯 Polun valitsin",
       navQuiz: "📝 Tutkintotesti",
       navSpecies: "🦌 Riistalajit",
@@ -195,8 +195,8 @@ const I18N = {
       navDocs: "📚 Syventävät oppaat",
 
       heroTag: "🌲 Suomalainen eräkulttuuri ja riistanhoito",
-      heroTitle: "Metsästys Suomessa: <br><span class=\"highlight\">Pysyvän asukkaan ja aloittelijan opas</span>",
-      heroSubtitle: "Kattava opas Suomessa pysyvästi asuville ja vasta-alkajille. Opi suorittamaan metsästäjätutkinto (myös englanniksi), hakemaan poliisin aselupia asukkaana, aloittamaan jousimetsästys ilman asekaappibyrokratiaa, hankkimaan Eräluvat valtionmaille ja saamaan eettistä lähiriistaa.",
+      heroTitle: "Metsästys Suomessa: <br><span class=\"highlight\">Aloittelijan ja asukkaan täydellinen eräopas</span>",
+      heroSubtitle: "Kattava ja turvallisuuslähtöinen opas suomalaiseen metsästykseen, riistanhoitoon ja luonnon antimien kestävään hyödyntämiseen. Opi suorittamaan metsästäjätutkinto (myös englanniksi), hakemaan poliisin aselupia, aloittamaan jousimetsästys, hyödyntämään Metsähallituksen 9 miljoonaa hehtaaria valtion maita ja hankkimaan eettistä lähiriistaa.",
       heroBtnWizard: "Löydä oma aloituspolkusi 🎯",
       heroBtnQuiz: "Tee harjoitustentti (15 kysymystä) 📝",
 
@@ -207,14 +207,14 @@ const I18N = {
       stat3Num: "Englanti / Suomi",
       stat3Label: "Metsästäjätutkinnon voi suorittaa englanniksi tai suomeksi",
       stat4Num: "Asukkaan oikeudet",
-      stat4Label: "Pysyvällä asukkaalla täydet aseluvanhaku- ja seuratoimintaoikeudet",
+      stat4Label: "Täydet aseluvanhaku-, seura- ja valtionmaiden luvanoikeudet",
 
-      prNoticeTitle: "🇫🇮 Pysyvän asukkaan asema Suomessa",
-      prNoticeBody: "Suomessa pysyvästi asuvana henkilönä sinulla on samat metsästysoikeudet kuin Suomen kansalaisilla: rekisteröidyt Oma riista -palveluun suomalaisilla pankkitunnuksilla (Suomi.fi), kuulut kotikuntasi riistanhoitoyhdistykseen (RHY), haet aselupia suoraan poliisilta ja voit hakea Metsähallituksen valtionmaiden lupia sekä liittyä metsästysseuroihin. Et tarvitse mitään turistilupia!",
+      prNoticeTitle: "🌲 Suomessa asuminen: Kotimainen riistanhoitojärjestelmä ja asukkaan edut",
+      prNoticeBody: "Suomessa asuvana toimit täysin kotimaisen riistanhoitojärjestelmän puitteissa: rekisteröidyt Oma riistaan henkilötunnuksellasi ja pankkitunnuksillasi (Suomi.fi), suoritat virallisen metsästäjätutkinnon (saatavilla myös englanniksi), haet aseluvat kotipaikkakuntasi poliisilta (ei-kansalaisille asevelvollisuuden sotilaspassivaatimus katsotaan suoraan täytetyksi) ja pääset suoraan käsiksi Metsähallituksen laajoihin valtionmaihin ja paikallisiin metsästysseuroihin ilman turistirajoituksia.",
 
       wizardTag: "Askel askeleelta",
-      wizardTitle: "Pysyvän asukkaan aloituspolun valitsin",
-      wizardSubtitle: "Valitse toiveesi ja luo itsellesi räätälöity askel askeleelta -suunnitelma kustannusarvioineen.",
+      wizardTitle: "Metsästäjän aloituspolun valitsin",
+      wizardSubtitle: "Valitse toiveesi ja luo itsellesi selkeä, räätälöity etenemissuunnitelma kustannusarvioineen.",
       wizardStep1: "1. Mikä on toivomasi asetyyppi?",
       wizardStep2: "2. Mitä riistaa haluat pyytää ensin?",
       wizardStep3: "3. Mikä on budjettisi ja aikataulusi?",
@@ -262,11 +262,11 @@ const I18N = {
       clRangeTitle: "🎯 Ampumaratapäivä",
       clHuntTitle: "🌲 Ensimmäinen metsäpäivä",
 
-      docsTag: "Tietopankki",
-      docsTitle: "Syventävät käsikirjat (docs/)",
-      docsSubtitle: "Kattavat tekstitiedostot hankkeen docs/-kansiossa.",
+      docsTag: "Syventävät oppaat",
+      docsTitle: "Syventävät käsikirjat",
+      docsSubtitle: "Kattavat 8 luvun eräoppaat, luettavissa suoraan selaimessa tai erillisinä HTML-sivuina.",
 
-      footerDesc: "Koulutuksellinen ja käytännöllinen eräopas Suomessa asuville aloittelijoille kestävän riistatalouden pariin.",
+      footerDesc: "Kattava koulutusprojekti ja käytännön eräopas luonnossa liikkujille, asukkaille ja vasta-alkajille vastuullisen suomalaisen eräkulttuurin edistämiseksi.",
       footerAuthTitle: "Viralliset viranomaiset",
       footerAssocTitle: "Järjestöt ja koulutus",
       footerNote: "Tarkista aina alueelliset kiintiöt ja rauhoitusajat virallisista viranomaislähteistä ennen jahtiin lähtöä."

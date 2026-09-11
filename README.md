@@ -1,13 +1,14 @@
-# Hunting in Finland: Permanent Resident & Beginner Guide
-*芬兰狩猎全景指南 • Metsästys Suomessa — Pysyvän asukkaan ja aloittelijan opas*
+# Hunting in Finland: The Complete Beginner & Resident Field Guide
+*芬兰狩猎全景指南：零基础入门与本地实战全攻略 • Metsästys Suomessa: Aloittelijan ja asukkaan täydellinen eräopas*
 
-Welcome to the comprehensive guide for hunting in Finland, specifically tailored for **permanent residents living in Finland** (*pysyvästi Suomessa asuvat*) and newcomers starting with zero prior experience. 
+Welcome to the comprehensive, safety-first field guide for hunting in Finland, designed for outdoor enthusiasts, residents living in Finland, and newcomers starting with zero prior experience. 
 
-Finland possesses one of the richest, most accessible, and most community-rooted hunting cultures in Europe, with over **300,000 registered hunters** (roughly 6% of the population). As a permanent resident (PR) registered in Finland with a Finnish personal identity code (*henkilötunnus*), you enjoy the **exact same domestic hunting rights as Finnish citizens**:
+Finland possesses one of the richest, most accessible, and most community-rooted hunting cultures in Europe, with over **300,000 registered hunters** (roughly 6% of the population). As a resident living in Finland with a Finnish personal identity code (*henkilötunnus*) and online banking credentials (*Suomi.fi*), you participate under the **full domestic hunting framework**:
 - You do **not** need foreign visitor tourist licenses.
-- You can sit the official Hunter's Examination (*Metsästäjätutkinto*) in **English** or Finnish at your local Game Management Association (RHY).
-- You can apply directly to the Finnish Police (*Poliisi*) for firearm acquisition permits (*hankkimislupa*).
-- You can join local hunting clubs (*metsästysseura*) and purchase state land permits on **Eräluvat.fi**.
+- You can sit the official Hunter's Examination (*Metsästäjätutkinto*) in **English**, Finnish, or Swedish at your local Game Management Association (RHY).
+- You can apply directly to the Finnish Police (*Poliisi*) for firearm acquisition permits (*hankkimislupa*), with military service requirements waived for non-citizens.
+- You can explore modern compound bow hunting (*jousimetsästys*) with zero police paperwork or gun safe requirements.
+- You can join local hunting clubs (*metsästysseura*) and purchase state land permits across 9+ million hectares on **Eräluvat.fi**.
 
 ---
 
