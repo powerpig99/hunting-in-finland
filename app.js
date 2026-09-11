@@ -187,6 +187,7 @@ function renderStaticUI() {
   setHtmlWithBilingual('sec-tag-docs', ui1.docsTag, ui2 ? ui2.docsTag : null);
   setHtmlWithBilingual('sec-title-docs', ui1.docsTitle, ui2 ? ui2.docsTitle : null);
   setHtmlWithBilingual('sec-sub-docs', ui1.docsSubtitle, ui2 ? ui2.docsSubtitle : null);
+  setHtmlWithBilingual('sec-btn-overview', ui1.docsOverviewBtn, ui2 ? ui2.docsOverviewBtn : null);
 
   setHtmlWithBilingual('footer-desc', ui1.footerDesc, ui2 ? ui2.footerDesc : null);
   setHtmlWithBilingual('footer-auth-title', ui1.footerAuthTitle, ui2 ? ui2.footerAuthTitle : null);
@@ -977,8 +978,8 @@ function renderDocsHub() {
         <a href="${htmlPageUrl}" class="btn btn-sm btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem; border-radius: 9999px; text-decoration: none;" onclick="event.stopPropagation()">
           ${l1 === 'zh' ? '🌐 独立网页' : (l1 === 'fi' ? '🌐 HTML-sivu' : '🌐 HTML Page')}
         </a>
-        <a href="${mdFileUrl}" target="_blank" class="doc-raw-link" style="font-size: 0.8rem; margin-left: auto; color: var(--color-slate-500);" onclick="event.stopPropagation()">
-          📄 .md
+        <a href="overview.html" class="doc-raw-link" style="font-size: 0.8rem; margin-left: auto; color: var(--color-slate-500);" onclick="event.stopPropagation()" title="Full Overview Webpage">
+          📑 ${l1 === 'zh' ? '全书总览' : (l1 === 'fi' ? 'Yleiskuva' : 'Overview')}
         </a>
       </div>
     `;

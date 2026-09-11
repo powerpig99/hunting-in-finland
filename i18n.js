@@ -90,6 +90,7 @@ const I18N = {
       docsTag: "Documentation Hub",
       docsTitle: "Deep Dive Handbooks",
       docsSubtitle: "Full-length comprehensive documentation chapters located in the docs/ folder.",
+      docsOverviewBtn: "Read Full Overview Webpage",
 
       footerDesc: "A comprehensive educational project and practical field guide for outdoor enthusiasts, residents, and beginners in Finland, fostering safe, ethical, and sustainable wildlife stewardship.",
       footerAuthTitle: "Official Finnish Authorities",
@@ -180,6 +181,7 @@ const I18N = {
       docsTag: "深度研习手册",
       docsTitle: "全套9章深度研习手册",
       docsSubtitle: "存储在 docs/ 目录下的系统化专业文档，支持在线阅读与双语对照。",
+      docsOverviewBtn: "阅读全景网页版指南",
 
       footerDesc: "专为在芬兰生活的户外爱好者及零基础新手打造的生态友好型可持续野生动物管理指引与实战手册。",
       footerAuthTitle: "芬兰官方监管机构",
@@ -270,6 +272,7 @@ const I18N = {
       docsTag: "Syventävät oppaat",
       docsTitle: "Syventävät käsikirjat",
       docsSubtitle: "Kattavat 9 luvun eräoppaat, luettavissa suoraan selaimessa tai erillisinä HTML-sivuina.",
+      docsOverviewBtn: "Lue kattava yleiskatsaus (HTML)",
 
       footerDesc: "Kattava koulutusprojekti ja käytännön eräopas luonnossa liikkujille, asukkaille ja vasta-alkajille vastuullisen suomalaisen eräkulttuurin edistämiseksi.",
       footerAuthTitle: "Viralliset viranomaiset",

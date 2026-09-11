@@ -369,7 +369,9 @@ chapters.forEach((ch, idx) => {
           ${prevCh ? `<a href="${prevCh.num}_${prevCh.slug}.html" class="doc-nav-btn">← Ch ${prevCh.num}</a>` : `<a href="../index.html" class="doc-nav-btn">← Main Portal</a>`}
         </div>
         <div class="doc-footer-links">
-          <a href="${mdFilename}" class="doc-raw-link" target="_blank">View Raw .md Source</a>
+          <a href="../overview.html" class="doc-raw-link">📑 Overview Webpage</a>
+          <span style="color:#cbd5e1;">•</span>
+          <a href="${mdFilename}" class="doc-raw-link" target="_blank">View Raw .md</a>
           <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="doc-nav-btn" style="cursor:pointer;">↑ Top</button>
         </div>
         <div>
