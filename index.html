@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunting in Finland: The Complete Beginner's Guide & Interactive Toolkit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌲</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="nav-brand">
+        <span>🌲 Eräopas Suomi</span>
+        <span class="badge-fi">FINLAND</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#wizard">🎯 Pathway Finder</a></li>
+          <li><a href="#quiz">📝 Exam Practice</a></li>
+          <li><a href="#species">🦌 Game Species</a></li>
+          <li><a href="#calculator">💰 Budget Tool</a></li>
+          <li><a href="#checklists">📋 Checklists</a></li>
+          <li><a href="#docs">📚 Deep Dive Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag">🌲 Wilderness & Wildlife Stewardship</div>
+        <h1>Hunting in Finland: <br><span class="highlight">From Zero Experience</span> to First Harvest</h1>
+        <p>
+          Discover Finland's world-class hunting culture. Learn how to pass the Hunter's Exam in English, navigate firearm permits or bow hunting without police bureaucracy, access 9+ million hectares of public state forests, and harvest ethical wild game.
+        </p>
+        <div class="hero-actions">
+          <a href="#wizard" class="btn btn-primary">Find Your Starting Route 🎯</a>
+          <a href="#quiz" class="btn btn-secondary">Take Practice Exam (25 Qs) 📝</a>
+        </div>
+      </div>
+
+      <!-- Quick Highlights Grid -->
+      <div class="hero-highlights">
+        <div class="highlight-stat">
+          <div class="stat-num">300,000+</div>
+          <div class="stat-label">Active Hunters in Finland (6% of population)</div>
+        </div>
+        <div class="highlight-stat">
+          <div class="stat-num">9,000,000+</div>
+          <div class="stat-label">Hectares of Public State Hunting Lands (Eräluvat)</div>
+        </div>
+        <div class="highlight-stat">
+          <div class="stat-num">English</div>
+          <div class="stat-label">Official Hunter's Exam Available in English & Finnish</div>
+        </div>
+        <div class="highlight-stat">
+          <div class="stat-num">No Gun Needed</div>
+          <div class="stat-label">Practice at ranges & join drives as a beater with 0 permits</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1. Interactive Pathway Finder Wizard -->
+  <section id="wizard" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Step-by-Step Advisor</span>
+        <h2>Personalized Pathway Finder</h2>
+        <p>Answer 4 quick questions to generate your exact legal roadmap, estimated costs, and required permits.</p>
+      </div>
+
+      <div class="wizard-card">
+        <!-- Question 1: Residency -->
+        <div class="wizard-step-title">1. What is your residency status?</div>
+        <div class="wizard-options">
+          <div class="option-box selected" data-step="residency" data-value="resident">
+            <div class="opt-icon">🇫🇮</div>
+            <h4>Living in Finland</h4>
+            <p>You have a Finnish address / personal ID code. Standard path through local Game Management Association (RHY).</p>
+          </div>
+          <div class="option-box" data-step="residency" data-value="visitor">
+            <div class="opt-icon">🌍</div>
+            <h4>Foreign Visitor / Tourist</h4>
+            <p>You hold a hunting license in your home country or plan a temporary visit to hunt with an outfitter.</p>
+          </div>
+        </div>
+
+        <!-- Question 2: Weapon Preference -->
+        <div class="wizard-step-title">2. How do you want to hunt?</div>
+        <div class="wizard-options">
+          <div class="option-box selected" data-step="weapon" data-value="gun">
+            <div class="opt-icon">🔫</div>
+            <h4>Traditional Firearms</h4>
+            <p>Shotgun (birds/hare) or .308 rifle (deer/moose). Requires police permit & safe storage.</p>
+          </div>
+          <div class="option-box" data-step="weapon" data-value="bow">
+            <div class="opt-icon">🏹</div>
+            <h4>Compound Bow (Archery)</h4>
+            <p>No police firearm permit or gun safe required! Quiet, ethical, ideal for suburban deer management.</p>
+          </div>
+          <div class="option-box" data-step="weapon" data-value="mentor">
+            <div class="opt-icon">🤝</div>
+            <h4>Mentored / Guided (No Gun Ownership)</h4>
+            <p>Shoot under immediate supervision (Valvottu ammunta) or apply for a Parallel Permit for a mentor's weapon.</p>
+          </div>
+        </div>
+
+        <!-- Question 3: Target Game -->
+        <div class="wizard-step-title">3. What game do you want to pursue first?</div>
+        <div class="wizard-options">
+          <div class="option-box selected" data-step="target" data-value="small">
+            <div class="opt-icon">🦆</div>
+            <h4>Small Game & Birds</h4>
+            <p>Forest grouse, waterfowl, wood pigeon, and hares. Accessible on public state lands via Eräluvat.fi.</p>
+          </div>
+          <div class="option-box" data-step="target" data-value="big">
+            <div class="opt-icon">🦌</div>
+            <h4>Big Game (Deer & Moose)</h4>
+            <p>High-seat deer ambush or club moose drives. Requires shooting test & club membership/quota.</p>
+          </div>
+          <div class="option-box" data-step="target" data-value="all">
+            <div class="opt-icon">🌲</div>
+            <h4>All-Round Hunter</h4>
+            <p>From August waterfowl opening to winter deer and moose drives across Finland.</p>
+          </div>
+        </div>
+
+        <!-- Dynamic Output Box -->
+        <div id="wizard-plan-output" class="wizard-results">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Practice Quiz -->
+  <section id="quiz" class="section" style="background-color: var(--color-slate-100);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Exam Simulator</span>
+        <h2>Metsästäjätutkinto Practice Quiz</h2>
+        <p>Test your knowledge with 15 real exam-style questions covering species identification, Finnish hunting law, and field safety.</p>
+      </div>
+
+      <div class="quiz-container">
+        <!-- Active Question View -->
+        <div id="quiz-active-card">
+          <div class="quiz-header">
+            <div>
+              <span id="quiz-category-tag" class="quiz-category-tag">Species Identification</span>
+              <span style="font-size: 0.9rem; color: var(--color-slate-500); margin-left: 0.5rem;">
+                Question <strong id="quiz-current-num">1</strong> of <span id="quiz-total-num">15</span>
+              </span>
+            </div>
+            <div id="quiz-score-display" class="quiz-score-badge">Score: 0/0</div>
+          </div>
+
+          <div class="quiz-progress-bar">
+            <div id="quiz-progress-fill" class="quiz-progress-fill"></div>
+          </div>
+
+          <div class="quiz-question-box">
+            <h3 id="quiz-question-text">Loading question...</h3>
+            <div id="quiz-answers-list" class="quiz-answers-list">
+              <!-- Answer buttons inserted by JavaScript -->
+            </div>
+          </div>
+
+          <div id="quiz-feedback-box" class="quiz-feedback-box" style="display: none;"></div>
+
+          <div class="quiz-actions">
+            <div></div>
+            <button id="quiz-next-btn" class="btn btn-primary" style="display: none;">Next Question →</button>
+          </div>
+        </div>
+
+        <!-- Results View -->
+        <div id="quiz-results-card" style="display: none; text-align: center; padding: 2rem 1rem;">
+          <div style="font-size: 3.5rem; margin-bottom: 1rem;">🎯</div>
+          <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--color-slate-900);">Quiz Completed!</h3>
+          <p style="color: var(--color-slate-600); margin-bottom: 1.5rem;">Here is how you scored on the simulated Finnish Hunter's Exam:</p>
+          <div id="quiz-final-score" style="font-size: 2.5rem; font-weight: 800; color: var(--color-pine-700); margin-bottom: 0.5rem;">0 / 15</div>
+          <div id="quiz-pass-status" style="font-weight: 700; font-size: 1.1rem; margin-bottom: 2rem;">Evaluating...</div>
+          <button id="quiz-restart-btn" class="btn btn-primary">Retake Quiz 🔄</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Species Explorer -->
+  <section id="species" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Wildlife Database</span>
+        <h2>Finnish Game Species & Seasons Explorer</h2>
+        <p>Explore the primary huntable animals of Finland, seasonal dates, permitted weapons, and field tips.</p>
+      </div>
+
+      <div class="species-controls">
+        <div class="species-filters">
+          <button class="filter-chip active" data-cat="all">All Species</button>
+          <button class="filter-chip" data-cat="big">Big Game & Deer</button>
+          <button class="filter-chip" data-cat="grouse">Forest Grouse</button>
+          <button class="filter-chip" data-cat="waterfowl">Waterfowl</button>
+          <button class="filter-chip" data-cat="small">Small Mammals</button>
+          <button class="filter-chip" data-cat="invasive">Invasive Predators</button>
+        </div>
+        <input type="text" id="species-search-input" class="species-search" placeholder="Search by name (e.g. Metso, Moose)..." aria-label="Search game species">
+      </div>
+
+      <div id="species-cards-container" class="species-grid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Budget Calculator -->
+  <section id="calculator" class="section" style="background-color: var(--color-slate-100);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Financial Planning</span>
+        <h2>Startup Cost & Gear Estimator</h2>
+        <p>Transparent breakdown of realistic initial costs in Finland across the three beginner pathways.</p>
+      </div>
+
+      <div class="calc-grid">
+        <!-- Pathway 1: Traditional Firearms -->
+        <div class="calc-column">
+          <div class="calc-header">
+            <h3>🔫 Firearm Pathway</h3>
+            <p>12-gauge shotgun or .308 rifle ownership</p>
+          </div>
+          <div class="calc-total" id="calc-gun-total">1,449 €</div>
+          <ul class="calc-items">
+            <li class="calc-item">
+              <span>Hunter's Exam Fee (RHY)</span>
+              <span class="price">20 €</span>
+            </li>
+            <li class="calc-item">
+              <span>Game Management Fee (Oma riista)</span>
+              <span class="price">43 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-gun-safe" class="calc-toggle" checked> Approved Gun Safe (EN 14450 S1)</label>
+              <span class="price">+350 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-gun-permit" class="calc-toggle" checked> Police Acquisition Permit</label>
+              <span class="price">+106 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-gun-weapon" class="calc-toggle" checked> Quality Used/Entry Shotgun or Rifle</label>
+              <span class="price">+650 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-gun-ammo" class="calc-toggle" checked> Initial Ammo & Range Practice</label>
+              <span class="price">+80 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-gun-club" class="calc-toggle" checked> Hunting Club / State Season Permit</label>
+              <span class="price">+200 €</span>
+            </li>
+          </ul>
+          <p style="font-size: 0.8rem; color: var(--color-slate-500);">Full independent ownership with home storage.</p>
+        </div>
+
+        <!-- Pathway 2: Bow Hunting -->
+        <div class="calc-column featured">
+          <div class="featured-ribbon">Low Bureaucracy</div>
+          <div class="calc-header">
+            <h3>🏹 Bow Hunting Pathway</h3>
+            <p>Compound bow with zero police permits</p>
+          </div>
+          <div class="calc-total" id="calc-bow-total" style="color: var(--color-orange-500);">713 €</div>
+          <ul class="calc-items">
+            <li class="calc-item">
+              <span>Hunter's Exam Fee (RHY)</span>
+              <span class="price">20 €</span>
+            </li>
+            <li class="calc-item">
+              <span>Game Management Fee (Oma riista)</span>
+              <span class="price">43 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-bow-pkg" class="calc-toggle" checked> Compound Bow Ready-to-Hunt Package</label>
+              <span class="price">+490 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-bow-arrows" class="calc-toggle" checked> Carbon Arrows & Release Aid</label>
+              <span class="price">+90 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-bow-target" class="calc-toggle" checked> High-Density Practice Foam Target</label>
+              <span class="price">+70 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-bow-heads" class="calc-toggle" checked> Hunting Broadheads (22 mm legal)</label>
+              <span class="price">+50 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-bow-test" class="calc-toggle"> Bow Shooting Test (for deer)</label>
+              <span class="price">+20 €</span>
+            </li>
+          </ul>
+          <p style="font-size: 0.8rem; color: var(--color-slate-500);">No gun safe or police interviews required.</p>
+        </div>
+
+        <!-- Pathway 3: Mentored / Guided -->
+        <div class="calc-column">
+          <div class="calc-header">
+            <h3>🤝 Guided / Mentored Route</h3>
+            <p>Try the sport without buying weapons</p>
+          </div>
+          <div class="calc-total" id="calc-guided-total">398 €</div>
+          <ul class="calc-items">
+            <li class="calc-item">
+              <span>Hunter's Exam Fee (RHY)</span>
+              <span class="price">20 €</span>
+            </li>
+            <li class="calc-item">
+              <span>Game Management Fee (Oma riista)</span>
+              <span class="price">43 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-guide-clay" class="calc-toggle" checked> Clay Shooting Practice Session</label>
+              <span class="price">+35 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-guide-hunt" class="calc-toggle" checked> Guided Waterfowl / Deer Day Hunt</label>
+              <span class="price">+220 €</span>
+            </li>
+            <li class="calc-item">
+              <label><input type="checkbox" id="cb-guide-gear" class="calc-toggle" checked> Blaze Orange Vest, Hat & Puukko Knife</label>
+              <span class="price">+80 €</span>
+            </li>
+          </ul>
+          <p style="font-size: 0.8rem; color: var(--color-slate-500);">Fastest hands-on route to your first harvest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Field Checklists -->
+  <section id="checklists" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Interactive Preparation</span>
+        <h2>Essential Hunter's Field Checklists</h2>
+        <p>Interactive checklists for the key milestones in your beginner journey.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+        <!-- Checklist 1: Exam Day -->
+        <div class="checklist-card">
+          <h3>📝 Hunter's Exam Day</h3>
+          <ul class="check-items">
+            <li class="check-item"><label><input type="checkbox"> <span>Valid Passport or Official ID card</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>20 € cash or card for exam fee</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Pen or pencil</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Requested English exam sheet from invigilator</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Reviewed top 15 waterfowl & grouse species</span></label></li>
+          </ul>
+        </div>
+
+        <!-- Checklist 2: Range Day -->
+        <div class="checklist-card">
+          <h3>🎯 Shooting Range Practice</h3>
+          <ul class="check-items">
+            <li class="check-item"><label><input type="checkbox"> <span>Active electronic ear protection (muffs)</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Ballistic shooting safety glasses</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Gun in locked carrying case (unloaded)</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Firearms possession permit card (Asekortti)</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Hunting card active on Oma riista app</span></label></li>
+          </ul>
+        </div>
+
+        <!-- Checklist 3: First Hunt Day -->
+        <div class="checklist-card">
+          <h3>🌲 First Forest Hunt Day</h3>
+          <ul class="check-items">
+            <li class="check-item"><label><input type="checkbox"> <span>Blaze orange vest + hat (legal 2/3 coverage)</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Hunting card & permit receipt on Oma riista</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Traditional Finnish belt knife (Puukko)</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Non-toxic ammo (steel/bismuth if near water)</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>First aid kit + powerbank for smartphone GPS</span></label></li>
+            <li class="check-item"><label><input type="checkbox"> <span>Thermos with hot coffee/tea and lunch</span></label></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Deep Dive Documentation Directory -->
+  <section id="docs" class="section" style="background-color: var(--color-slate-100);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Documentation Hub</span>
+        <h2>Deep Dive Handbooks</h2>
+        <p>Complete text reference modules included in this repository.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
+        <a href="docs/01_legal_framework_and_exam.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🏛️</div>
+          <h4>01. Legal Framework & Exam</h4>
+          <p>Riistakeskus, RHY structure, 60-question test rules, Oma riista & hunting card.</p>
+        </a>
+        <a href="docs/02_firearms_and_licensing.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🔫</div>
+          <h4>02. Firearms & Licensing</h4>
+          <p>Police Hankkimislupa, gun safe laws (EN 14450), supervised shooting (Valvottu ammunta).</p>
+        </a>
+        <a href="docs/03_bow_hunting_alternative.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🏹</div>
+          <h4>03. Bow Hunting Alternative</h4>
+          <p>Compound bows, draw force (180 N), broadheads, 18m bow test, deer management.</p>
+        </a>
+        <a href="docs/04_land_access_and_permits.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🌲</div>
+          <h4>04. Land Access & Permits</h4>
+          <p>Metsähallitus state lands (Eräluvat.fi), hunting clubs (Metsästysseura), outfitters.</p>
+        </a>
+        <a href="docs/05_game_species_and_seasons.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🦌</div>
+          <h4>05. Game Species & Seasons</h4>
+          <p>Moose, white-tailed deer, forest grouse, waterfowl, big game 75m rifle test.</p>
+        </a>
+        <a href="docs/06_zero_experience_roadmap.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🧭</div>
+          <h4>06. Zero-Experience Roadmap</h4>
+          <p>Step-by-step from beater (Ajomies) to first clean shot, field dressing, and hanging.</p>
+        </a>
+        <a href="docs/07_safety_gear_and_ethics.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">🛡️</div>
+          <h4>07. Safety, Gear & Ethics</h4>
+          <p>Blaze orange 2/3 law, wetland lead ban, winter layering, Finnish hunting honor.</p>
+        </a>
+        <a href="docs/08_finnish_hunting_glossary.md" target="_blank" class="option-box" style="text-decoration:none;">
+          <div class="opt-icon">📖</div>
+          <h4>08. Finnish-English Glossary</h4>
+          <p>Essential Finnish hunting commands, radio phrases, and vocabulary.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>🌲 Hunting in Finland</h4>
+          <p>An educational project and practical guide created for beginners aspiring to participate in sustainable Finnish wildlife stewardship.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Official Authorities</h4>
+          <ul>
+            <li><a href="https://riista.fi" target="_blank" rel="noopener">Suomen riistakeskus (Riista.fi)</a></li>
+            <li><a href="https://oma.riista.fi" target="_blank" rel="noopener">Oma riista Portal</a></li>
+            <li><a href="https://www.eraluvat.fi" target="_blank" rel="noopener">Metsähallitus Eräluvat.fi</a></li>
+            <li><a href="https://poliisi.fi" target="_blank" rel="noopener">Finnish Police (Poliisi.fi)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hunter Associations</h4>
+          <ul>
+            <li><a href="https://metsastajaliitto.fi" target="_blank" rel="noopener">Suomen Metsästäjäliitto</a></li>
+            <li><a href="https://www.jousimetsastys.fi" target="_blank" rel="noopener">Suomen Jousimetsästäjäin Liitto (SJML)</a></li>
+            <li><a href="https://riistainfo.fi" target="_blank" rel="noopener">Riistainfo Learning Portal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Created for exploration & outdoor learning. Always verify regional quotas and seasonal dates on official Finnish portals before heading into the forest.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
