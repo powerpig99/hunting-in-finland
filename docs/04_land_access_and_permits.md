@@ -14,7 +14,7 @@ This chapter breaks down the three pathways to hunting land access: state-owned 
 
 The Finnish state owns more than **9 million hectares** of pristine boreal forest, tundra, and waterways, managed by the state forestry enterprise, **Metsähallitus**. These public lands provide incredible hunting opportunities, particularly in Eastern Finland (Kainuu, North Karelia) and Northern Finland (Lapland, Kuusamo).
 
-### How It Works via [Eräluvat.fi](https://www.eraluvat.fi)
+### How It Works via [Eräluvat.fi](https://www.eraluvat.fi/)
 Any hunter holding a valid Finnish Hunting Card (*Metsästyskortti*) can purchase personal small game permits directly from the Eräluvat web portal.
 
 ### Types of State Small Game Permits (*Pienriistaluvat*):

@@ -34,31 +34,31 @@ Under **Section 88 of the Finnish Firearms Act (*Ampuma-aselaki*)**, any person 
 - **How to Attend**:
   - Non-members can purchase single-round clay tickets (*sarjalippu*) at the club office (~6 € – 8 € per 25 clays).
   - 12-gauge trap cartridges are sold on-site (~8 € – 10 € / box of 25).
-  - **First-time visitors without equipment**: Contact the club shotgun section or an instructor in advance (via [ssg-shooting.fi](https://ssg-shooting.fi)) to request a supervised beginner session with a club loaner gun.
+  - **First-time visitors without equipment**: Contact the club shotgun section or an instructor in advance (via [ssg-shooting.fi](https://www.ssg-shooting.fi/)) to request a supervised beginner session with a club loaner gun.
 
 #### 2. Lahnuksen Ampumarata / Espoon Ampumarata (Lahnus, Espoo)
 - **What It Is**: Clay pigeon shooting and rifle range operated by Espoon Ampumaseura (ESA).
 - **Location**: Korpilammintie / Lahnus, 02970 Espoo (~25 min drive north of Espoo center).
 - **Features**: Trap and skeet layouts in a forested environment.
-- **Contact**: [espoonampumaseura.fi](https://espoonampumaseura.fi).
+- **Contact**: [espoonampumarata.fi](https://www.espoonampumarata.fi/).
 
 #### 3. Lopen Ampumarata (Loppi)
 - **What It Is**: A major regional hunting shooting center with dedicated running moose (*liikkuva hirvi*), running wild boar (*juokseva karju*), and clay shooting tracks.
 - **Location**: Komiontie 126, 12700 Loppi (~50 min north of Helsinki via Route 54).
 - **How to Attend**: Weekly open shoots for hunters practicing for the mandatory 75m rifle test (*hirvikoe*). Very welcoming to newcomers accompanied by a mentor or attending an RHY course.
-- **Website**: [lopenampumarata.fi](https://www.lopenampumarata.fi).
+- **Website**: [lopenampumarata.fi](https://www.lopenampumarata.fi/).
 
 #### 4. Ruoto Mega Store SimWay Simulator (Tuusula & Tampere)
 - **What It Is**: High-precision indoor hunting simulator using real modified rifles and shotguns with laser sensors and realistic pneumatic recoil.
 - **Location**: Pakkasraitti 2, 04360 Tuusula (~20 min north of Helsinki Airport).
 - **Why It's Great for Beginners**: Zero live ammunition recoil fear, 100% warm indoor setting, instant feedback on swing lead for mallards and moose.
-- **Booking**: Book online at [ruoto.fi](https://www.ruoto.fi) by selecting 30-minute or 60-minute simulator slots (~35 € – 60 €).
+- **Booking**: Book online at [ruoto.fi](https://www.ruoto.fi/) by selecting 30-minute or 60-minute simulator slots (~35 € – 60 €).
 
 #### 5. Osuva Range (Helsinki City Center & Töölö)
 - **What It Is**: Downtown Helsinki indoor range offering fully supervised commercial shooting packages with certified range safety officers.
 - **Location**: Albertinkatu 36, 00180 Helsinki.
 - **Package**: "First Time Shooter" packages include safety instructor, ear/eye protection, firearms, and ammunition.
-- **Booking**: Directly online at [osuva.com](https://osuva.com).
+- **Booking**: Directly online at [osuva.com](https://osuva.com/).
 
 ---
 
@@ -89,7 +89,7 @@ In Southern, Western, and Central Finland, private landowners lease hunting righ
 Under Finnish law, issuing a moose hunting permit requires **at least 1,000 hectares of contiguous land**. Therefore, hunting big game (moose, white-tailed deer) is almost exclusively practiced through club syndicates (*hirviporukka* / *peuraporukka*).
 
 ### 🔍 Step 1: Locate Clubs in Your Municipality via Riista.fi
-1. Open the official Finnish Wildlife Agency directory: **[riista.fi/yhteystiedot](https://riista.fi/riistahallinto/yhteystiedot/)**.
+1. Open the official Finnish Wildlife Agency directory: **[riista.fi/yhteystiedot](https://riista.fi/yhteystiedot/)**.
 2. Select your regional game district (e.g. *Uusimaa*, *Varsinais-Suomi*, *Häme*).
 3. Click your home municipality (e.g. *Espoo-Kauniainen*, *Kirkkonummi*, *Sipoo*, *Lohja*, *Vihti*, *Porvoo*).
 4. Find the **Executive Coordinator (*Toiminnanohjaaja*)** of the local Game Management Association (RHY).

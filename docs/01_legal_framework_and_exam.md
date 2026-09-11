@@ -53,7 +53,7 @@ The exam is a written multiple-choice test consisting of **60 questions**:
 - When arriving at the examination session, inform the RHY exam invigilator in advance that you need the English test sheet.
 - *Note on Study Material*: The primary official study manual, ***Metsästäjän opas*** (Hunter's Guide), is published in Finnish and Swedish by Suomen riistakeskus. English-speaking candidates typically prepare using:
   1. The Finnish *Metsästäjän opas* combined with Google Lens / visual translation tools.
-  2. Online interactive courses on **[Riistainfo.fi](https://riistainfo.fi)** and **[Riistapolku.fi](https://riistapolku.fi)**.
+  2. Online interactive courses on **[Riistapolku.fi](https://www.riistapolku.fi/)** (Suomen riistakeskuksen verkko-oppimisympäristö).
   3. Attending an RHY preparatory weekend course (many instructors gladly explain concepts in English).
   4. The practice quizzes included in this project’s interactive web app.
 
@@ -63,7 +63,7 @@ The exam is a written multiple-choice test consisting of **60 questions**:
 - **Is it mandatory?** No, self-study is legally permitted. However, for a complete beginner, **attending a course is strongly recommended**. It gives you direct contact with experienced local hunters and clarifies tricky species identification (such as distinguishing a female mallard from a protected gadwall or pintail).
 
 ### 5. Exam Logistics & Costs
-- **Finding an Exam**: Search the event calendar at **[riista.fi/metsastys/tapahtumahaku](https://riista.fi/metsastys/tapahtumahaku/)** under *Metsästäjätutkinto*.
+- **Finding an Exam**: Search the event calendar at **[riista.fi/tapahtumat](https://riista.fi/tapahtumat/)** under *Metsästäjätutkinto*.
 - **Exam Fee**: **20 €** per attempt. (If you fail, you can retake the test at the next scheduled session by paying another 20 €).
 - **What to Bring**:
   - Official photo ID (passport or Finnish identity card; note: driving licenses are sometimes accepted by RHY for this test, but bring a passport to be safe).

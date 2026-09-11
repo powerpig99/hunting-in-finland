@@ -41,7 +41,7 @@ Step 7: Police Issue Plastic Possession Permit (Hallussapitolupa)
 ```
 
 ### 1. Application Submission (Online or In-Person)
-- You can apply via the police electronic portal (**[poliisi.fi](https://poliisi.fi)**) using your Finnish bank authentication (*Suomi.fi*).
+- You can apply via the police electronic portal (**[poliisi.fi/hae-aselupaa](https://poliisi.fi/hae-aselupaa)**) using your Finnish bank authentication (*Suomi.fi*).
 - **Application Fee**: Approximately **106 € – 115 €** per firearm.
 - **Documents Required**:
   - Valid Passport and Finnish residence permit card (pysyvä oleskelulupa / PR).

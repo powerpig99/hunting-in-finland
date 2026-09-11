@@ -60,10 +60,10 @@ Before committing to exams, licenses, or expensive gear, test whether you genuin
   1. **Species Identification**: Waterfowl, forest birds, non-game predators, and protected lookalikes.
   2. **Hunting Legislation**: Shooting distances from buildings (150 m without permission), transport of weapons in vehicles (unloaded in a case), hunting hours.
   3. **Weapon & Hunter Safety**: Muzzle control, finger off trigger, blaze orange requirements.
-- Use **[Riistainfo.fi](https://riistainfo.fi)** video modules, the **Metsästäjän opas** handbook, and the practice quiz in this project’s interactive web app.
+- Use **[Riistapolku.fi](https://www.riistapolku.fi/)** online study modules, the **Metsästäjän opas** handbook, and the practice quiz in this project’s interactive web app.
 
 ### Step 2: Attend the RHY Weekend Preparatory Course
-- Check **[riista.fi/metsastys/tapahtumahaku](https://riista.fi/metsastys/tapahtumahaku/)** for your local RHY course.
+- Check **[riista.fi/tapahtumat](https://riista.fi/tapahtumat/)** for your local RHY course.
 - Typically run over 2 to 4 sessions. Instructors bring mounted taxidermy birds and explain tricky species differences.
 
 ### Step 3: Sit the 60-Question Exam

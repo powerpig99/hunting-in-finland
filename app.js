@@ -961,12 +961,23 @@ function renderDocsHub() {
     const card = document.createElement('div');
     card.className = 'option-box';
     card.style.cursor = 'pointer';
+    const htmlPageUrl = `docs/${d.num}_${d.slug}.html`;
+    const mdFileUrl = `docs/${d.num}_${d.slug}.md`;
+
     card.innerHTML = `
       <div class="opt-icon">${d.icon}</div>
       <h4>${renderBilingualText(d.title, l1, l2)}</h4>
       <p>${renderBilingualText(d.subtitle, l1, l2, true)}</p>
-      <div style="margin-top: 0.75rem; color: var(--color-orange-500); font-weight: 700; font-size: 0.85rem;">
-        ${l1 === 'zh' ? '点击在线阅读 →' : (l1 === 'fi' ? 'Avaa ja lue →' : 'Read in Handbook →')}
+      <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
+        <span class="btn btn-sm btn-primary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem; border-radius: 9999px;">
+          ${l1 === 'zh' ? '📖 弹窗阅读' : (l1 === 'fi' ? '📖 Lue oppaassa' : '📖 Modal Reader')}
+        </span>
+        <a href="${htmlPageUrl}" class="btn btn-sm btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.75rem; border-radius: 9999px; text-decoration: none;" onclick="event.stopPropagation()">
+          ${l1 === 'zh' ? '🌐 独立网页' : (l1 === 'fi' ? '🌐 HTML-sivu' : '🌐 HTML Page')}
+        </a>
+        <a href="${mdFileUrl}" target="_blank" class="doc-raw-link" style="font-size: 0.8rem; margin-left: auto; color: var(--color-slate-500);" onclick="event.stopPropagation()">
+          📄 .md
+        </a>
       </div>
     `;
     card.addEventListener('click', (e) => {
@@ -976,3 +987,4 @@ function renderDocsHub() {
     container.appendChild(card);
   });
 }
+

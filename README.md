@@ -107,5 +107,5 @@ python3 -m http.server 8000
 - **[Oma riista](https://oma.riista.fi/)** — National digital hunting register, digital hunting card, harvest reporting.
 - **[Eräluvat.fi (Metsähallitus)](https://www.eraluvat.fi/)** — State forest hunting permits, maps, and quotas.
 - **[Metsästäjäliitto (Finnish Hunters' Association)](https://metsastajaliitto.fi/)** — Hunter advocacy, training, mentoring, and magazine.
-- **[Poliisi.fi](https://poliisi.fi/)** — Firearm acquisition and possession permits for residents.
-- **[Riistainfo.fi](https://riistainfo.fi/)** — Official self-study materials, species recognition, and video guides.
+- **[Poliisi.fi (Firearm Permits)](https://poliisi.fi/hae-aselupaa)** — Official electronic portal for firearm acquisition and possession permits.
+- **[Riistapolku.fi (Suomen riistakeskus)](https://www.riistapolku.fi/)** — Official e-learning environment, self-study modules, and species recognition.

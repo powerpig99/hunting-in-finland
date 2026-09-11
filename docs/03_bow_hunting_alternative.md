@@ -92,7 +92,7 @@ Do you need an exam to hunt with a bow?
 ## 🤝 Community & Mentorship
 
 - **Suomen Jousimetsästäjäin Liitto (SJML - Finnish Bow Hunters' Association)**:
-  - Website: **[jousimetsastys.fi](https://www.jousimetsastys.fi)**
+  - Website: **[jousimetsastys.fi](https://www.jousimetsastys.fi/)**
   - Runs the renowned *Jousimetsästyksen peruskurssi* (Basic Course in Bow Hunting).
   - Maintains 3D practice targets in nature trails across the country.
   - Active regional chapters organize shared hunts and deer stand rotations for new members.
